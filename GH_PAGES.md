@@ -1,5 +1,13 @@
 # 部署到 GitHub Pages
 
+## 已部署
+
+- 仓库：<https://github.com/miaojinshuai/smart-city-practice>
+- 站点：<https://miaojinshuai.github.io/smart-city-practice/>
+- 方式：`main` 分支 + `/docs` 目录（Settings → Pages → Deploy from a branch）
+
+> 注：仓库更新后会自动重新发布，通常 1~3 分钟生效。
+
 ## 结论
 
 **可以。** 但 GitHub Pages 只能托管静态文件，原项目的 `server.mjs`（Node Mock 服务）跑不起来。

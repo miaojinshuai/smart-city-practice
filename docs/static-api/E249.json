@@ -1,0 +1,1 @@
+{"kind":"list","items":[{"id":1,"theaterId":1,"name":"1 厅","status":"N","seatRows":8,"seatCols":12,"type":"IMAX"},{"id":2,"theaterId":1,"name":"2 厅","status":"N","seatRows":8,"seatCols":12,"type":"普通厅"},{"id":3,"theaterId":1,"name":"3 厅","status":"N","seatRows":8,"seatCols":12,"type":"普通厅"},{"id":4,"theaterId":1,"name":"4 厅","status":"N","seatRows":8,"seatCols":12,"type":"普通厅"}]}

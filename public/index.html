@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>智慧城市 · 移动应用开发练习平台</title>
+<link rel="stylesheet" href="assets/app.css" />
+<link rel="icon" href="assets/favicon.svg" />
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">SC</div>
+      <div>
+        <div class="brand-t">智慧城市练习平台</div>
+        <div class="brand-s">移动应用与开发赛项</div>
+      </div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar-foot">
+      <div class="status-row"><span class="dot" id="hdot"></span><span id="htxt">检测服务中…</span></div>
+      <div style="margin-top:6px;font-size:10.5px;line-height:1.5">Mock API · 本地离线可用</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <span class="page-title" id="ptitle">工作台</span>
+        <span class="page-sub" id="psub"></span>
+      </div>
+      <div class="topbar-right">
+        <div class="base-chip" id="baseChip" title="点击复制 Base URL">
+          <span class="muted">Base</span><b id="baseUrl">/prod-api</b>
+        </div>
+        <button class="btn sm" id="btnLogin">快速登录</button>
+      </div>
+    </header>
+    <div class="content" id="view"></div>
+  </main>
+</div>
+<div id="toast"></div>
+<script src="assets/api-mode.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

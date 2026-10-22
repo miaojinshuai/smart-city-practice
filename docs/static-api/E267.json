@@ -1,0 +1,1 @@
+{"kind":"object","resp":{"code":200,"msg":"操作成功","data":[{"id":1,"areaName":"甘井子区"},{"id":2,"areaName":"沙河口区"},{"id":3,"areaName":"中山区"},{"id":4,"areaName":"西岗区"}]}}

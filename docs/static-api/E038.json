@@ -1,0 +1,1 @@
+{"kind":"object","resp":{"code":200,"msg":"查询成功","rows":[{"id":1,"keyword":"红烧","searchTimes":27},{"id":2,"keyword":"清蒸","searchTimes":24},{"id":3,"keyword":"凉拌","searchTimes":21},{"id":4,"keyword":"汤","searchTimes":18},{"id":5,"keyword":"快手菜","searchTimes":15},{"id":6,"keyword":"下饭菜","searchTimes":12}],"total":6}}

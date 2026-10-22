@@ -1,0 +1,1 @@
+{"kind":"object","resp":{"code":200,"msg":"操作成功","user":{"userId":2,"userName":"test02","nickName":"测试用户02","email":"test02@example.com","phonenumber":"13800000000","sex":"0","avatar":"","idCard":"210211199909090014","balance":9800,"score":10000,"createTime":"2026-01-01 00:00:00"}}}

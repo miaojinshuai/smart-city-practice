@@ -2,6 +2,11 @@ name = "smart-city-mock"
 main = "worker/index.mjs"
 compatibility_date = "2026-10-01"
 
+# 自定义域名（Cloudflare 账号内已绑定的 zone）
+routes = [
+  { pattern = "qixingba.dpdns.org", custom_domain = true }
+]
+
 # 图片不打包进 Worker，直接 302 到已部署的静态站点
 [vars]
 ASSET_BASE = "https://miaojinshuai.github.io/smart-city-practice"

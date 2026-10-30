@@ -19,13 +19,15 @@ node server.mjs
 
 打开 <http://localhost:10091>，Windows 下可直接双击 `启动.bat`。
 
-**② Cloudflare Worker 版（支持 POST/PUT/DELETE）**
+**② Cloudflare Worker 版（支持 POST/PUT/DELETE，数据存 D1）**
+
+线上地址：**<https://qixingba.dpdns.org>**（`/prod-api/...` 直接可用）
 
 ```bash
-npx wrangler deploy        # 需 CLOUDFLARE_API_TOKEN，或先 wrangler login
+node worker/deploy.mjs     # 需 CLOUDFLARE_API_TOKEN，自动建库/灌数据/部署
 ```
 
-305 个接口全方法可用，数据与本地 Mock 一致（写操作是实例内存态）。详见 **[worker/README.md](./worker/README.md)**。
+305 个接口全方法可用，读写都走 D1。详见 **[worker/README.md](./worker/README.md)**。
 
 **③ 纯静态版（GitHub Pages / 任意静态托管）**
 

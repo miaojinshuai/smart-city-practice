@@ -2,6 +2,13 @@
 
 支持 **GET / POST / PUT / DELETE**，与本地 `server.mjs` 共用同一份数据（`../mock/data.mjs`）。
 
+## 线上地址
+
+| 用途 | 地址 |
+| --- | --- |
+| 主域名（推荐，Postman 直接用） | `https://qixingba.dpdns.org` |
+| workers.dev 备用 | `https://smart-city-mock.857560481ma.workers.dev` |
+
 - 代码：`worker/index.mjs`
 - 配置：根目录 `wrangler.toml`
 - 打包体积：131 KB（gzip 32 KB），免费版上限 3 MB
@@ -108,9 +115,19 @@ localStorage.removeItem('API_SITE'); location.reload();
 ## 五、接口自检
 
 ```bash
-curl https://你的worker.workers.dev/mock/health
-curl https://你的worker.workers.dev/prod-api/api/rotation/list
+curl https://qixingba.dpdns.org/mock/health
+# {"ok":true,"storage":"d1","endpoints":305,"datasets":145,...}
+
+curl https://qixingba.dpdns.org/prod-api/api/rotation/list
+
 curl -X POST -H "Content-Type: application/json" \
      -d '{"username":"test02","password":"123456"}' \
-     https://你的worker.workers.dev/prod-api/api/login
+     https://qixingba.dpdns.org/prod-api/api/login
+
+# 增删改
+curl -X POST https://qixingba.dpdns.org/prod-api/api/park/car \
+     -H "Content-Type: application/json" -d '{"plateNo":"辽B66666","type":"小型汽车"}'
+curl -X PUT  https://qixingba.dpdns.org/prod-api/api/park/car/4 \
+     -H "Content-Type: application/json" -d '{"plateNo":"辽B88888"}'
+curl -X DELETE https://qixingba.dpdns.org/prod-api/api/park/car/4
 ```

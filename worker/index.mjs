@@ -36,6 +36,7 @@ async function ensureKey(env, key) {
 
 /** 一次请求需要读哪些数据集 */
 function neededKeys(p, method) {
+  if (p === '/prod-api/api/login') return ['user'];
   if (p.startsWith('/prod-api/api/common/user')) return ['user'];
   if (p.startsWith('/prod-api/api/common/weather')) return ['weather'];
   if (p.includes('/system/dict/data/type/')) return ['dict'];
@@ -174,6 +175,7 @@ function filterList(list, q) {
 /* ------------------------------------------------------------ API 分发 */
 async function handleApi(request, url, env) {
   const p = url.pathname;
+  baseDB(); // 保证 db 已初始化（登录等接口不依赖任何数据集）
   for (const k of neededKeys(p, request.method)) await ensureKey(env, k);
   const q = Object.fromEntries(url.searchParams.entries());
   const method = request.method;

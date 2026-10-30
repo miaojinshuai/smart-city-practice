@@ -56,17 +56,37 @@ npx wrangler dev          # http://localhost:8787
 
 不装 wrangler 也能验证：直接用 Request/Response 调用 `worker/index.mjs`（见 `_work/worker-test.mjs`）。
 
-## 三、数据持久性的边界（重要）
+## 三、数据持久性：D1（已支持）
 
-| 项目 | 说明 |
+`worker/index.mjs` 检测到 `env.DB` 绑定时自动切到 D1，未绑定时退回内存。
+
+**表结构**（`worker/schema.sql`）：每个数据集一行，`v` 存 JSON 文本，粒度与 `mock/data.mjs` 的 key 一致。
+
+```sql
+CREATE TABLE kv (k TEXT PRIMARY KEY, v TEXT NOT NULL, updated_at TEXT);
+```
+
+**读写策略**
+
+| 场景 | 行为 |
 | --- | --- |
-| 读接口 | 完全正常，305 个接口按文档结构返回 |
-| 写接口 | **只在当前 Worker 实例内存中生效**，同一实例内的后续查询能看到（下单→查订单列表没问题） |
-| 实例回收 | 一段时间无请求后实例会被回收，`POST` 进去的数据随之丢失，回到初始快照 |
-| 多实例 | 高并发时 Cloudflare 可能开多个实例，A 实例写入的数据 B 实例看不到 |
-| 想真持久 | 需要绑定 D1（SQL）或 KV：把 `db` 初始化逻辑改成读写存储，写操作落库 |
+| 冷启动 | `SELECT k, v FROM kv` 一次性加载（145 行，约 60 KB），与默认数据合并 |
+| 读接口 | 走内存，不查库 |
+| 写接口 | 只回写被修改的那个数据集（数组级 UPSERT），不整库覆盖 |
+| 多实例 | 各自启动时读库；写后其他实例要等冷启动才看到（秒级最终一致） |
 
-> 比赛练习场景（一个人调试、当场看结果）内存态够用；要做多人共享的环境才需要上 D1。
+**初始化 D1**
+
+```bash
+npx wrangler d1 create smart-city-mock           # 记下 database_id
+# 把 database_id 写进 wrangler.toml 的 [[d1_databases]]
+node worker/seed.mjs                             # 生成 worker/seed.sql
+npx wrangler d1 execute smart-city-mock --remote --file worker/schema.sql
+npx wrangler d1 execute smart-city-mock --remote --file worker/seed.sql
+npx wrangler deploy
+```
+
+没有 D1 时的行为与原 Node 版一致（实例内存，回收即丢）。
 
 ## 四、让 App 指向 Worker
 

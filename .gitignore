@@ -3,3 +3,4 @@ _work/
 *.log
 .wrangler-dist/
 .wrangler/
+.cf_token

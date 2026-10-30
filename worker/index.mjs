@@ -7,8 +7,47 @@
  * 部署：npx wrangler deploy
  * 本地：npx wrangler dev
  */
-import { db } from '../mock/data.mjs';
+import { db as seedDB } from '../mock/data.mjs';
 import endpoints from './endpoints.mjs';
+
+/* ------------------------------------------------------------ 数据源
+ * 绑定了 D1（env.DB）时：启动读一次性加载，写操作按「数据集」整体回写；
+ * 没绑定时退化为进程内存（与原 Node 版行为一致）。
+ */
+let db = null;
+let loaded = false;
+
+async function ensureDB(env) {
+  if (loaded) return db;
+  loaded = true;
+  // 深拷贝，避免污染模块级种子数据（isolate 复用时尤其重要）
+  db = structuredClone(seedDB);
+  if (!env || !env.DB) return db;
+  try {
+    const { results } = await env.DB.prepare('SELECT k, v FROM kv').all();
+    const patch = {};
+    for (const r of results || []) {
+      try { patch[r.k] = JSON.parse(r.v); } catch { /* 跳过脏数据 */ }
+    }
+    Object.assign(db, patch);
+  } catch (e) {
+    console.error('[d1] 加载失败，回退到内存数据：', e.message);
+  }
+  return db;
+}
+
+/** 把某个数据集整体写回 D1（数组级粒度，一次写一个 key） */
+async function saveKey(env, key) {
+  if (!env || !env.DB || !db || !db[key]) return;
+  try {
+    await env.DB.prepare(
+      'INSERT INTO kv (k, v, updated_at) VALUES (?, ?, ?) ' +
+      'ON CONFLICT(k) DO UPDATE SET v = excluded.v, updated_at = excluded.updated_at'
+    ).bind(key, JSON.stringify(db[key]), now()).run();
+  } catch (e) {
+    console.error('[d1] 写入失败', key, e.message);
+  }
+}
 
 /* ------------------------------------------------------------ 基础工具 */
 const CORS_HEADERS = {
@@ -122,7 +161,8 @@ function filterList(list, q) {
 }
 
 /* ------------------------------------------------------------ API 分发 */
-async function handleApi(request, url) {
+async function handleApi(request, url, env) {
+  await ensureDB(env);
   const p = url.pathname;
   const q = Object.fromEntries(url.searchParams.entries());
   const method = request.method;
@@ -138,6 +178,7 @@ async function handleApi(request, url) {
     }
     const token = 'mock.' + crypto.randomUUID();
     tokens.set(token, db.user.userId);
+    await saveKey(env, 'user');
     return json({ code: 200, msg: '操作成功', token });
   }
   if (p === '/prod-api/api/logout') return json({ code: 200, msg: '操作成功' });
@@ -152,6 +193,7 @@ async function handleApi(request, url) {
   if (p === '/prod-api/api/common/user' && method === 'PUT') {
     const b = await parseBody(request);
     Object.assign(db.user, Object.fromEntries(Object.entries(b || {}).filter(([, v]) => v !== undefined)));
+    await saveKey(env, 'user');
     return json({ code: 200, msg: '操作成功' });
   }
   if (p === '/prod-api/api/common/user/resetPwd' && method === 'PUT') {
@@ -211,12 +253,14 @@ async function handleApi(request, url) {
       addressDetail: b.addressDetail || '大连理工大学教学楼 A3-118', receiverName: b.name || '王大卫',
       receiverPhone: b.phone || '13800000000', remark: b.remark || '', orderItemList: items,
     });
+    await saveKey(env, 'takeout/order');
     return json({ code: 200, msg: '操作成功', orderNo });
   }
   if (p === '/prod-api/api/takeout/pay' && method === 'POST') {
     const b = await parseBody(request);
     const o = db['takeout/order'].find((x) => x.orderNo === (b || {}).orderNo);
     if (o) o.orderStatus = '待配送';
+    await saveKey(env, 'takeout/order');
     return json({ code: 200, msg: '支付成功' });
   }
 
@@ -255,6 +299,7 @@ async function handleApi(request, url) {
     db['lawyer-consultation/legal-advice'].unshift({
       id, fromUserId: 2, fromUserName: 'test02', createTime: now(), score: 0, likeCount: 0, myLikeState: false, ...b,
     });
+    await saveKey(env, 'lawyer-consultation/legal-advice');
     return json({ code: 200, msg: '提交成功', data: { id } });
   }
 
@@ -300,6 +345,7 @@ async function handleApi(request, url) {
       const id = (ds.reduce((m, x) => Math.max(m, Number(x.id) || 0), 0) || 0) + 1;
       const item = { id, createTime: now(), userId: 2, ...(b || {}) };
       ds.unshift(item);
+      await saveKey(env, key);
       return json({ code: 200, msg: '操作成功', data: item });
     }
     if (method === 'PUT' || method === 'PATCH') {
@@ -307,11 +353,13 @@ async function handleApi(request, url) {
       const id = isIdPath ? last : (b || {}).id;
       const item = ds.find((x) => String(x.id) === String(id));
       if (item) Object.assign(item, b || {});
+      await saveKey(env, key);
       return json({ code: 200, msg: '操作成功' });
     }
     if (method === 'DELETE') {
       const i = ds.findIndex((x) => String(x.id) === last);
       if (i >= 0) ds.splice(i, 1);
+      await saveKey(env, key);
       return json({ code: 200, msg: '删除成功' });
     }
   }
@@ -349,16 +397,19 @@ export default {
 
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS_HEADERS });
 
-    if (url.pathname === '/mock/health')
+    if (url.pathname === '/mock/health') {
+      await ensureDB(env);
       return json({
         ok: true,
         runtime: 'cloudflare-worker',
         endpoints: endpoints.length,
         modules: [...new Set(endpoints.map((e) => e.module))].length,
         datasets: Object.keys(db).length,
+        storage: env && env.DB ? 'd1' : 'memory',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         time: now(),
       });
+    }
 
     // 图片走静态站点，避免把二进制打进 Worker
     if (/^\/(img|icons|mock-assets)\//.test(url.pathname)) {
@@ -368,7 +419,7 @@ export default {
 
     if (url.pathname.startsWith('/prod-api/')) {
       try {
-        return await handleApi(request, url);
+        return await handleApi(request, url, env);
       } catch (err) {
         return json({ code: 500, msg: '服务端异常：' + err.message }, 500);
       }

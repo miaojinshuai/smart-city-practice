@@ -8,3 +8,13 @@ ASSET_BASE = "https://miaojinshuai.github.io/smart-city-practice"
 
 [observability]
 enabled = true
+
+# ---------------------------------------------------------------- D1
+# 首次部署时执行：
+#   npx wrangler d1 create smart-city-mock
+# 把返回的 database_id 填到下面（或用 worker/deploy.sh 自动完成）
+#
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "smart-city-mock"
+# database_id = "<创建后填入>"

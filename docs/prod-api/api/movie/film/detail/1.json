@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "name": "悬崖之上",
+    "category": "3",
+    "categoryName": "动作",
+    "cover": "img/movie4.jpg",
+    "playType": "3",
+    "playTypeName": "2D",
+    "score": 7.1,
+    "duration": 103,
+    "playDate": "2026-10-24",
+    "likeNum": 5321,
+    "favoriteNum": 8789,
+    "language": "中文",
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>",
+    "other": null,
+    "recommend": "Y",
+    "director": "张艺谋",
+    "actors": "张译 / 于和伟 / 秦海璐"
+  }
+}

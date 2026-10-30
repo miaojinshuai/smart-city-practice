@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "parkName": "星海广场地下停车场",
+    "vacancy": "12",
+    "priceCaps": "20",
+    "imgUrl": "img/park2.jpg",
+    "rates": "4",
+    "address": "大连市沙河口区星海广场 A 区",
+    "distance": "350",
+    "allPark": "60",
+    "open": "Y",
+    "lotType": "地面"
+  }
+}

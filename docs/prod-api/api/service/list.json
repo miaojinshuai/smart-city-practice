@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "serviceName": "停车场",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/law3.jpg",
+      "link": "/pages/service/index",
+      "sort": 1,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 2,
+      "serviceName": "城市地铁",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/hospital2.jpg",
+      "link": "/pages/service/index",
+      "sort": 2,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 3,
+      "serviceName": "外卖订餐",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/news3.jpg",
+      "link": "/pages/service/index",
+      "sort": 3,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 4,
+      "serviceName": "找工作",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/poster5.jpg",
+      "link": "/pages/service/index",
+      "sort": 4,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 5,
+      "serviceName": "找房子",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/poster4.jpg",
+      "link": "/pages/service/index",
+      "sort": 5,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 6,
+      "serviceName": "智慧交管",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/bus1.jpg",
+      "link": "/pages/service/index",
+      "sort": 6,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 7,
+      "serviceName": "活动管理",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "车主服务",
+      "imgUrl": "img/city3.jpg",
+      "link": "/pages/service/index",
+      "sort": 7,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 8,
+      "serviceName": "生活交费",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "生活服务",
+      "imgUrl": "img/metro6.jpg",
+      "link": "/pages/service/index",
+      "sort": 8,
+      "isRecommend": "Y"
+    },
+    {
+      "id": 9,
+      "serviceName": "看电影",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "生活服务",
+      "imgUrl": "img/welfare2.jpg",
+      "link": "/pages/service/index",
+      "sort": 9,
+      "isRecommend": "N"
+    },
+    {
+      "id": 10,
+      "serviceName": "门诊预约",
+      "serviceDesc": "智慧城市便民服务",
+      "serviceType": "生活服务",
+      "imgUrl": "img/city1.jpg",
+      "link": "/pages/service/index",
+      "sort": 10,
+      "isRecommend": "N"
+    }
+  ],
+  "total": 20
+}

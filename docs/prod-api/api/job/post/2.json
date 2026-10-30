@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "companyId": 3,
+    "companyName": "虎鱼科技",
+    "professionId": 3,
+    "professionName": "前端开发工程师",
+    "contacts": "李女士",
+    "name": "前端开发",
+    "obligation": "负责业务系统的设计、开发、测试以及上线；参与需求评审与技术方案设计；持续优化系统性能。",
+    "address": "大连市高新园区",
+    "need": "应届毕业生",
+    "salary": "8000",
+    "education": "大专",
+    "createTime": "2026-10-18 10:30:00"
+  }
+}

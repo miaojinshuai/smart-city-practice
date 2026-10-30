@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "name": "误杀 2",
+    "category": "6",
+    "categoryName": "惊悚",
+    "cover": "img/movie2.jpg",
+    "playType": "1",
+    "playTypeName": "IMAX",
+    "score": 7.6,
+    "duration": 118,
+    "playDate": "2026-10-19",
+    "likeNum": 26926,
+    "favoriteNum": 42734,
+    "language": "中文",
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>",
+    "other": null,
+    "recommend": "N",
+    "director": "郭帆",
+    "actors": "吴京 / 刘德华 / 李雪健"
+  }
+}

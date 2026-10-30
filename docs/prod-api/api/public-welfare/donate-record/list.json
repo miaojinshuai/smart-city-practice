@@ -1,0 +1,62 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "activityId": 2,
+      "activityName": "山区儿童助学计划",
+      "userId": 2,
+      "userName": "test02",
+      "money": 100,
+      "createTime": "2026-10-20 11:20:00",
+      "isAnonymous": "0",
+      "payType": "电子支付"
+    },
+    {
+      "id": 2,
+      "activityId": 3,
+      "activityName": "孤寡老人关爱行动",
+      "userId": 2,
+      "userName": "test02",
+      "money": 50,
+      "createTime": "2026-10-19 11:20:00",
+      "isAnonymous": "1",
+      "payType": "电子支付"
+    },
+    {
+      "id": 3,
+      "activityId": 4,
+      "activityName": "山区儿童助学计划",
+      "userId": 2,
+      "userName": "test02",
+      "money": 200,
+      "createTime": "2026-10-18 11:20:00",
+      "isAnonymous": "0",
+      "payType": "电子支付"
+    },
+    {
+      "id": 4,
+      "activityId": 1,
+      "activityName": "孤寡老人关爱行动",
+      "userId": 2,
+      "userName": "test02",
+      "money": 20,
+      "createTime": "2026-10-17 11:20:00",
+      "isAnonymous": "0",
+      "payType": "电子支付"
+    },
+    {
+      "id": 5,
+      "activityId": 2,
+      "activityName": "山区儿童助学计划",
+      "userId": 2,
+      "userName": "test02",
+      "money": 500,
+      "createTime": "2026-10-16 11:20:00",
+      "isAnonymous": "0",
+      "payType": "电子支付"
+    }
+  ],
+  "total": 5
+}

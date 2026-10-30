@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "orderNo": "2026101120444612591",
+      "userId": 2,
+      "sellerId": 2,
+      "sellerName": "皖北刘哥牛肉板面",
+      "amount": 64,
+      "orderStatus": "待付款",
+      "paymentType": "电子支付",
+      "createTime": "2026-10-20 12:30:00",
+      "addressDetail": "大连理工大学教学楼 A3-118",
+      "receiverName": "王大卫",
+      "receiverPhone": "13800000000",
+      "remark": "",
+      "orderItemList": [
+        {
+          "productId": 2,
+          "productName": "柚见初夏套餐",
+          "quantity": 2,
+          "price": 18,
+          "productImage": "img/food6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderNo": "2026101120444612592",
+      "userId": 2,
+      "sellerId": 3,
+      "sellerName": "炸匠先森·韩式炸鸡",
+      "amount": 32,
+      "orderStatus": "待配送",
+      "paymentType": "电子支付",
+      "createTime": "2026-10-19 12:30:00",
+      "addressDetail": "大连理工大学教学楼 A3-118",
+      "receiverName": "王大卫",
+      "receiverPhone": "13800000000",
+      "remark": "",
+      "orderItemList": [
+        {
+          "productId": 3,
+          "productName": "牛肉板面（大碗）",
+          "quantity": 2,
+          "price": 18,
+          "productImage": "img/food7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "orderNo": "2026101120444612593",
+      "userId": 2,
+      "sellerId": 4,
+      "sellerName": "柚见初夏奶茶",
+      "amount": 48,
+      "orderStatus": "配送中",
+      "paymentType": "电子支付",
+      "createTime": "2026-10-18 12:30:00",
+      "addressDetail": "大连理工大学教学楼 A3-118",
+      "receiverName": "王大卫",
+      "receiverPhone": "13800000000",
+      "remark": "",
+      "orderItemList": [
+        {
+          "productId": 4,
+          "productName": "韩式炸鸡（半只）",
+          "quantity": 2,
+          "price": 18,
+          "productImage": "img/food1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "orderNo": "2026101120444612594",
+      "userId": 2,
+      "sellerId": 1,
+      "sellerName": "老碗面·手工拉面",
+      "amount": 25,
+      "orderStatus": "待评价",
+      "paymentType": "电子支付",
+      "createTime": "2026-10-17 12:30:00",
+      "addressDetail": "大连理工大学教学楼 A3-118",
+      "receiverName": "王大卫",
+      "receiverPhone": "13800000000",
+      "remark": "",
+      "orderItemList": [
+        {
+          "productId": 5,
+          "productName": "麻辣冒菜套餐",
+          "quantity": 2,
+          "price": 18,
+          "productImage": "img/food2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "orderNo": "2026101120444612595",
+      "userId": 2,
+      "sellerId": 2,
+      "sellerName": "川蜀冒菜小馆",
+      "amount": 88,
+      "orderStatus": "已完成",
+      "paymentType": "电子支付",
+      "createTime": "2026-10-16 12:30:00",
+      "addressDetail": "大连理工大学教学楼 A3-118",
+      "receiverName": "王大卫",
+      "receiverPhone": "13800000000",
+      "remark": "",
+      "orderItemList": [
+        {
+          "productId": 6,
+          "productName": "手工拉面",
+          "quantity": 2,
+          "price": 18,
+          "productImage": "img/food3.jpg"
+        }
+      ]
+    }
+  ],
+  "total": 5
+}

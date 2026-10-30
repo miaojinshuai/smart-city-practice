@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "光谷金融街",
+      "address": "大连市高新园区软件园路",
+      "longitude": "121.611",
+      "latitude": "38.911",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 180
+    },
+    {
+      "id": 2,
+      "name": "南湖大厦",
+      "address": "大连市沙河口区中山路",
+      "longitude": "121.612",
+      "latitude": "38.912",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 260
+    },
+    {
+      "id": 3,
+      "name": "软件园东路",
+      "address": "大连市高新园区软件园路",
+      "longitude": "121.613",
+      "latitude": "38.913",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 340
+    },
+    {
+      "id": 4,
+      "name": "高新管委会",
+      "address": "大连市沙河口区中山路",
+      "longitude": "121.614",
+      "latitude": "38.914",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 420
+    },
+    {
+      "id": 5,
+      "name": "理工大学北门",
+      "address": "大连市高新园区软件园路",
+      "longitude": "121.615",
+      "latitude": "38.915",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 500
+    },
+    {
+      "id": 6,
+      "name": "星海公园",
+      "address": "大连市沙河口区中山路",
+      "longitude": "121.616",
+      "latitude": "38.916",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 580
+    },
+    {
+      "id": 7,
+      "name": "会展中心",
+      "address": "大连市高新园区软件园路",
+      "longitude": "121.617",
+      "latitude": "38.917",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 660
+    },
+    {
+      "id": 8,
+      "name": "人民广场",
+      "address": "大连市沙河口区中山路",
+      "longitude": "121.618",
+      "latitude": "38.918",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 740
+    },
+    {
+      "id": 9,
+      "name": "光谷金融街",
+      "address": "大连市高新园区软件园路",
+      "longitude": "121.619",
+      "latitude": "38.919",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 820
+    },
+    {
+      "id": 10,
+      "name": "南湖大厦",
+      "address": "大连市沙河口区中山路",
+      "longitude": "121.6110",
+      "latitude": "38.9110",
+      "lineIds": [
+        1,
+        2
+      ],
+      "distance": 900
+    }
+  ],
+  "total": 12
+}

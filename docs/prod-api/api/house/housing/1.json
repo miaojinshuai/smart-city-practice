@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "sourceName": "西安路 08 年框架电梯房 70 年 LOFT 一室一厅封闭小区",
+    "address": "西安路 08 年框架电梯房 70 年 LOFT 一室一厅封闭小区",
+    "areaSize": 88,
+    "tel": "18546474541",
+    "price": "28300/㎡",
+    "houseType": "租房",
+    "pic": "img/house3.jpg",
+    "description": "房屋采光良好，周边配套齐全，交通便利，临近地铁与商圈。小区绿化率高，物业 24 小时安保。",
+    "district": "沙河口区",
+    "floor": "中楼层/18 层",
+    "orientation": "南北"
+  }
+}

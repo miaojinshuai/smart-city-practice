@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "userId": 2,
+    "name": "李女士",
+    "phone": "15898135273",
+    "addressDetail": "大连市沙河口区西安路 99 号 5 层",
+    "houseNumber": "",
+    "label": "家",
+    "isDefault": "N",
+    "longitude": "121.614682",
+    "latitude": "38.914003"
+  }
+}

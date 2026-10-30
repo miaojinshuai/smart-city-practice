@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "name": "数据可视化设计",
+    "author": "刘易斯·芒福德",
+    "cover": "img/library1.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "机械工业出版社",
+    "publishDate": "2022-03-01",
+    "category": "计算机",
+    "score": 8.6,
+    "readNum": 628,
+    "commentNum": 9,
+    "isbn": "978-7-100-12006",
+    "location": "市图书馆 1 楼 16 排"
+  }
+}

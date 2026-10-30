@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "name": "金逸影城",
+    "cover": "img/poster3.jpg",
+    "province": "辽宁省",
+    "city": "大连市",
+    "area": "沙河口区",
+    "address": "西安路 99 号福佳新天地 5 层",
+    "score": 4.1,
+    "tags": "IMAX,杜比全景声,3D",
+    "brand": "万达",
+    "distance": "500 米",
+    "status": "Y",
+    "movieId": null,
+    "timesId": null,
+    "tel": "0411-88881"
+  }
+}

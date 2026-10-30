@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "金普青年驿站",
+    "imgUrl": "img/youth3.jpg",
+    "address": "大连市高新园区软件园路 1 号",
+    "price": 0,
+    "tel": "0411-88884",
+    "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+    "roomType": "四人间",
+    "bedNum": 40,
+    "freeDays": 7,
+    "score": 4.5
+  }
+}

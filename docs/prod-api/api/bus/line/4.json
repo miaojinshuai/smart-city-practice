@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "五号线",
+    "first": "光谷金融街",
+    "end": "南湖大厦",
+    "startTime": "6:30",
+    "endTime": "19:45",
+    "price": 6,
+    "mileage": "31",
+    "interval": "8-12 分钟",
+    "stationNumber": 16,
+    "stations": [
+      {
+        "id": 1,
+        "name": "光谷金融街",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "name": "南湖大厦",
+        "sort": 2
+      },
+      {
+        "id": 3,
+        "name": "软件园东路",
+        "sort": 3
+      },
+      {
+        "id": 4,
+        "name": "高新管委会",
+        "sort": 4
+      },
+      {
+        "id": 5,
+        "name": "理工大学北门",
+        "sort": 5
+      },
+      {
+        "id": 6,
+        "name": "星海公园",
+        "sort": 6
+      },
+      {
+        "id": 7,
+        "name": "会展中心",
+        "sort": 7
+      },
+      {
+        "id": 8,
+        "name": "人民广场",
+        "sort": 8
+      },
+      {
+        "id": 9,
+        "name": "光谷金融街",
+        "sort": 9
+      }
+    ]
+  }
+}

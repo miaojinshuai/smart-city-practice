@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "name": "爱情神话",
+    "category": "2",
+    "categoryName": "爱情",
+    "cover": "img/movie1.jpg",
+    "playType": "2",
+    "playTypeName": "3D",
+    "score": 7.5,
+    "duration": 115,
+    "playDate": "2026-10-20",
+    "likeNum": 22605,
+    "favoriteNum": 35945,
+    "language": "中文",
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>",
+    "other": null,
+    "recommend": "N",
+    "director": "张艺谋",
+    "actors": "张译 / 于和伟 / 秦海璐"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": [
+    {
+      "provinceName": "辽宁省",
+      "cityName": "大连市",
+      "name": "五一广场",
+      "longitude": "121.614682",
+      "latitude": "38.914003",
+      "address": "辽宁省大连市沙河口区五一广场"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "sourceName": "甘井子区新房 首付 30 万起",
+    "address": "甘井子区新房 首付 30 万起",
+    "areaSize": 89,
+    "tel": "18546474545",
+    "price": "15800/㎡",
+    "houseType": "新房",
+    "pic": "img/house1.jpg",
+    "description": "房屋采光良好，周边配套齐全，交通便利，临近地铁与商圈。小区绿化率高，物业 24 小时安保。",
+    "district": "沙河口区",
+    "floor": "高楼层/32 层",
+    "orientation": "东南"
+  }
+}

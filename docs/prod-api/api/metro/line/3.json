@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "name": "3 号线",
+    "first": "宋家庄",
+    "end": "亦庄火车站",
+    "startTime": "05:25",
+    "endTime": "23:00",
+    "cityId": 5,
+    "stationsNumber": 21,
+    "km": 29,
+    "runStationsName": "西苑,北宫门,安河桥北,海淀黄庄,人民大学",
+    "price": 6,
+    "color": "#13a8a8"
+  }
+}

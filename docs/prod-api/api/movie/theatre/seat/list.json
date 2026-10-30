@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "row": "1",
+      "col": "1",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 2,
+      "roomId": 1,
+      "row": "1",
+      "col": "2",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 3,
+      "roomId": 1,
+      "row": "1",
+      "col": "3",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 4,
+      "roomId": 1,
+      "row": "1",
+      "col": "4",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 5,
+      "roomId": 1,
+      "row": "1",
+      "col": "5",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 6,
+      "roomId": 1,
+      "row": "1",
+      "col": "6",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 7,
+      "roomId": 1,
+      "row": "1",
+      "col": "7",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 8,
+      "roomId": 1,
+      "row": "1",
+      "col": "8",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 9,
+      "roomId": 1,
+      "row": "1",
+      "col": "9",
+      "type": "VIP",
+      "status": "Y"
+    },
+    {
+      "id": 10,
+      "roomId": 1,
+      "row": "1",
+      "col": "10",
+      "type": "VIP",
+      "status": "Y"
+    }
+  ],
+  "total": 96
+}

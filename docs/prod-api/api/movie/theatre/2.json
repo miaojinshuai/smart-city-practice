@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "name": "万达影城（高新店）",
+    "cover": "img/poster4.jpg",
+    "province": "辽宁省",
+    "city": "大连市",
+    "area": "中山区",
+    "address": "高新园区万达广场 4 层",
+    "score": 4.2,
+    "tags": "IMAX,杜比全景声,3D",
+    "brand": "金逸",
+    "distance": "800 米",
+    "status": "Y",
+    "movieId": null,
+    "timesId": null,
+    "tel": "0411-88882"
+  }
+}

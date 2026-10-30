@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "智慧城市主题讲座",
+    "content": "<p><strong>智慧城市主题讲座</strong></p><p>为丰富市民文化生活，倡导健康文明生活方式，现组织开展本次活动。请参与者按活动要求准时到场，服从现场工作人员安排。</p><p>活动免费，名额有限，报满即止。</p>",
+    "imgUrl": "img/activity2.jpg",
+    "categoryId": 5,
+    "categoryName": "讲座",
+    "recommend": "N",
+    "signupNum": 48,
+    "likeNum": 74,
+    "status": "1",
+    "publishTime": "2026-10-18 10:38:02",
+    "address": "大连市体育中心",
+    "startTime": "2026-11-09 09:00",
+    "endTime": "2026-11-09 12:00",
+    "limitNum": 180
+  }
+}

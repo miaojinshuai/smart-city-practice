@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "userId": 2,
+      "sellerId": 1,
+      "sellerName": "皖北刘哥牛肉板面",
+      "imgUrl": "img/seller2.jpg",
+      "score": 4.1,
+      "deliveryTime": 25,
+      "createTime": "2026-10-19 10:30:00"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "sellerId": 2,
+      "sellerName": "炸匠先森·韩式炸鸡",
+      "imgUrl": "img/seller3.jpg",
+      "score": 4.2,
+      "deliveryTime": 30,
+      "createTime": "2026-10-18 10:30:00"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "sellerId": 3,
+      "sellerName": "柚见初夏奶茶",
+      "imgUrl": "img/seller1.jpg",
+      "score": 4.3,
+      "deliveryTime": 35,
+      "createTime": "2026-10-17 10:30:00"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "sellerId": 4,
+      "sellerName": "老碗面·手工拉面",
+      "imgUrl": "img/seller2.jpg",
+      "score": 4.4,
+      "deliveryTime": 40,
+      "createTime": "2026-10-16 10:30:00"
+    }
+  ],
+  "total": 4
+}

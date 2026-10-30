@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "appType": "smart_city",
+    "newsId": 2,
+    "content": "这真是个好消息，期待早日落地。",
+    "commentDate": "2026-10-20 17:30:25",
+    "userId": 2,
+    "likeNum": 3,
+    "userName": "test02",
+    "newsTitle": "数字政务“一网通办”新增 48 项高频事项，覆盖率达 96%"
+  }
+}

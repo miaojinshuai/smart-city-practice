@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "companyId": 5,
+    "companyName": "海创软件",
+    "professionId": 5,
+    "professionName": "产品经理",
+    "contacts": "李女士",
+    "name": "产品运营",
+    "obligation": "负责业务系统的设计、开发、测试以及上线；参与需求评审与技术方案设计；持续优化系统性能。",
+    "address": "大连市万达广场",
+    "need": "工作经验 1-2 年",
+    "salary": "6500",
+    "education": "本科",
+    "createTime": "2026-10-16 10:30:00"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "name": "社区篮球友谊赛",
+    "content": "<p><strong>社区篮球友谊赛</strong></p><p>为丰富市民文化生活，倡导健康文明生活方式，现组织开展本次活动。请参与者按活动要求准时到场，服从现场工作人员安排。</p><p>活动免费，名额有限，报满即止。</p>",
+    "imgUrl": "img/activity3.jpg",
+    "categoryId": 1,
+    "categoryName": "运动",
+    "recommend": "N",
+    "signupNum": 55,
+    "likeNum": 85,
+    "status": "1",
+    "publishTime": "2026-10-17 10:38:02",
+    "address": "大连市星海广场",
+    "startTime": "2026-11-10 09:00",
+    "endTime": "2026-11-10 12:00",
+    "limitNum": 200
+  }
+}

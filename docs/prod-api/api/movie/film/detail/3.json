@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "name": "你好，李焕英",
+    "category": "4",
+    "categoryName": "喜剧",
+    "cover": "img/movie6.jpg",
+    "playType": "1",
+    "playTypeName": "IMAX",
+    "score": 7.3,
+    "duration": 109,
+    "playDate": "2026-10-22",
+    "likeNum": 13963,
+    "favoriteNum": 22367,
+    "language": "中文",
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>",
+    "other": null,
+    "recommend": "Y",
+    "director": "贾玲",
+    "actors": "沈腾 / 易烊千玺"
+  }
+}

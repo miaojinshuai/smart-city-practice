@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "parkName": "软件园 B 区停车场",
+    "vacancy": "44",
+    "priceCaps": "10",
+    "imgUrl": "img/park2.jpg",
+    "rates": "5",
+    "address": "大连市中山区人民路 66 号",
+    "distance": "45",
+    "allPark": "120",
+    "open": "Y",
+    "lotType": "地面"
+  }
+}

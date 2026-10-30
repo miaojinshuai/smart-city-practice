@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "热销",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "name": "主食",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "name": "小吃",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "name": "饮品",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "name": "套餐",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 5
+    },
+    {
+      "id": 6,
+      "name": "新品",
+      "sellerId": 1,
+      "themeId": 1,
+      "sort": 6
+    }
+  ],
+  "total": 6
+}

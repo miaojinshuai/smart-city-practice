@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "userId": 2,
+    "appealCategoryId": 6,
+    "appealCategoryName": "交通出行",
+    "title": "希望增设便民服务点",
+    "content": "小区门口路灯已经损坏两周，夜间出行不安全。",
+    "undertaker": "物价局",
+    "state": "3",
+    "stateName": "办理中",
+    "createTime": "2026-10-16 15:38:50",
+    "detailResult": "已转交相关部门核实处理，处理结果将第一时间反馈。",
+    "imgUrl": "img/news1.jpg"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "appType": "smart_city",
+    "newsId": 1,
+    "content": "支持！希望覆盖更多社区。",
+    "commentDate": "2026-10-15 17:30:25",
+    "userId": 2,
+    "likeNum": 18,
+    "userName": "张三",
+    "newsTitle": "社区“15 分钟生活圈”试点扩围，新增便民服务点 86 个"
+  }
+}

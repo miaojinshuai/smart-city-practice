@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "infoNo": "ST0000001",
+    "companyId": 1,
+    "companyName": "申通物流",
+    "company": {
+      "id": 1,
+      "name": "申通物流",
+      "imgUrl": "img/logistics2.jpg",
+      "phone": "18842424241",
+      "website": "https://www.example.com",
+      "introduce": "申通快递品牌初创于 1993 年，致力于民族品牌的建设和发展。"
+    },
+    "state": "运输中",
+    "sender": "王先生",
+    "senderPhone": "13800000000",
+    "receiver": "李女士",
+    "receiverPhone": "13900000000",
+    "sendAddress": "辽宁省大连市甘井子区软件园路 1 号",
+    "receiveAddress": "辽宁省沈阳市和平区青年大街 100 号",
+    "list": [
+      {
+        "id": 6,
+        "infoNo": "ST0000001",
+        "context": "快件已到达【沈阳转运中心】",
+        "time": "2026-10-22 08:12:00",
+        "status": "运输中"
+      },
+      {
+        "id": 5,
+        "infoNo": "ST0000001",
+        "context": "快件已从【大连转运中心】发出",
+        "time": "2026-10-21 22:40:00",
+        "status": "运输中"
+      },
+      {
+        "id": 4,
+        "infoNo": "ST0000001",
+        "context": "快件已到达【大连转运中心】",
+        "time": "2026-10-21 18:05:00",
+        "status": "运输中"
+      },
+      {
+        "id": 3,
+        "infoNo": "ST0000001",
+        "context": "【大连市甘井子区公司】已揽收",
+        "time": "2026-10-21 14:30:00",
+        "status": "已揽收"
+      },
+      {
+        "id": 2,
+        "infoNo": "ST0000001",
+        "context": "快件已打包，等待揽收",
+        "time": "2026-10-21 13:10:00",
+        "status": "待揽收"
+      },
+      {
+        "id": 1,
+        "infoNo": "ST0000001",
+        "context": "订单已创建",
+        "time": "2026-10-21 13:00:00",
+        "status": "已下单"
+      }
+    ]
+  }
+}

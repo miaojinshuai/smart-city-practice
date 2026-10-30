@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "companyId": 1,
+    "companyName": "亿达信息",
+    "professionId": 7,
+    "professionName": "Java 开发工程师",
+    "contacts": "李女士",
+    "name": "软件开发",
+    "obligation": "负责业务系统的设计、开发、测试以及上线；参与需求评审与技术方案设计；持续优化系统性能。",
+    "address": "大连市中山区",
+    "need": "工作经验 3-5 年",
+    "salary": "5000",
+    "education": "硕士",
+    "createTime": "2026-10-14 10:30:00"
+  }
+}

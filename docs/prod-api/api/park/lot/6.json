@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "parkName": "火车站南广场停车场",
+    "vacancy": "0",
+    "priceCaps": "40",
+    "imgUrl": "img/park3.jpg",
+    "rates": "4.2",
+    "address": "大连市沙河口区星海广场 A 区",
+    "distance": "2300",
+    "allPark": "300",
+    "open": "N",
+    "lotType": "地下"
+  }
+}

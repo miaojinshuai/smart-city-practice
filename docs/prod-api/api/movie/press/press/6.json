@@ -1,0 +1,20 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "appType": "movie",
+    "cover": "img/movie2.jpg",
+    "title": "《长津湖》获评年度最受欢迎影片",
+    "subTitle": "影视资讯 · 每日更新",
+    "content": "<p>据发行方消息，影片自上映以来口碑持续走高，排片占比稳步提升。</p>",
+    "status": "Y",
+    "publishDate": "2026-10-16",
+    "commentNum": 9,
+    "likeNum": 128,
+    "readNum": 1220,
+    "type": "30",
+    "top": "N",
+    "hot": "Y"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "orderNo": "2026100900095356434",
+    "theaterId": 1,
+    "theaterName": "万达影城（高新店）",
+    "roomId": 2,
+    "roomName": "2 厅",
+    "timesId": 5,
+    "movieId": 5,
+    "movieName": "爱情神话",
+    "price": 65,
+    "num": 2,
+    "status": "已支付",
+    "userId": 2,
+    "createTime": "2026-10-17 15:20:00",
+    "playDate": "2026-10-25",
+    "startTime": "19:30",
+    "seatInfo": "5 排 6 座,5 排 7 座"
+  }
+}

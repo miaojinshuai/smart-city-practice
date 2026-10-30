@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "sourceName": "高新园区地铁口小户型 通勤首选",
+    "address": "高新园区地铁口小户型 通勤首选",
+    "areaSize": 45,
+    "tel": "18546474543",
+    "price": "2100/月",
+    "houseType": "租房",
+    "pic": "img/house2.jpg",
+    "description": "房屋采光良好，周边配套齐全，交通便利，临近地铁与商圈。小区绿化率高，物业 24 小时安保。",
+    "district": "甘井子区",
+    "floor": "低楼层/6 层",
+    "orientation": "南"
+  }
+}

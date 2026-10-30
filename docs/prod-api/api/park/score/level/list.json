@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "普通",
+      "score": 0,
+      "icon": "img/city3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "白银",
+      "score": 500,
+      "icon": "img/city1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "黄金",
+      "score": 1000,
+      "icon": "img/city2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "白金",
+      "score": 3000,
+      "icon": "img/city3.jpg"
+    }
+  ],
+  "total": 4
+}

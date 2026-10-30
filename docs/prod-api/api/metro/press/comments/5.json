@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "appType": "smart_city",
+    "newsId": 3,
+    "content": "这真是个好消息，期待早日落地。",
+    "commentDate": "2026-10-16 17:30:25",
+    "userId": 2,
+    "likeNum": 15,
+    "userName": "test02",
+    "newsTitle": "我市入选国家智能社会治理实验基地，探索超大城市治理新路径"
+  }
+}

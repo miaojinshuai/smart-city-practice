@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "carId": 3,
+    "plateNo": "辽B12345",
+    "illegalType": "未系安全带",
+    "illegalTime": "2026-10-16 08:12:33",
+    "illegalAddress": "大连市西安路 200 米处",
+    "money": 150,
+    "deductPoints": 2,
+    "status": "已处理",
+    "code": "2102100005",
+    "handleType": "已缴款",
+    "userId": 2,
+    "imgUrl": "img/traffic2.jpg"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "parkName": "人民广场立体车库",
+    "vacancy": "5",
+    "priceCaps": "25",
+    "imgUrl": "img/park1.jpg",
+    "rates": "3",
+    "address": "大连市西岗区中山路 158 号",
+    "distance": "1200",
+    "allPark": "40",
+    "open": "Y",
+    "lotType": "地面"
+  }
+}

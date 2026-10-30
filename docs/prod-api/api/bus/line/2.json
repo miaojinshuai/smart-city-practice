@@ -1,0 +1,53 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "name": "二号线",
+    "first": "南湖大厦",
+    "end": "会展中心",
+    "startTime": "6:30",
+    "endTime": "19:45",
+    "price": 4,
+    "mileage": "23",
+    "interval": "8-12 分钟",
+    "stationNumber": 14,
+    "stations": [
+      {
+        "id": 1,
+        "name": "光谷金融街",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "name": "南湖大厦",
+        "sort": 2
+      },
+      {
+        "id": 3,
+        "name": "软件园东路",
+        "sort": 3
+      },
+      {
+        "id": 4,
+        "name": "高新管委会",
+        "sort": 4
+      },
+      {
+        "id": 5,
+        "name": "理工大学北门",
+        "sort": 5
+      },
+      {
+        "id": 6,
+        "name": "星海公园",
+        "sort": 6
+      },
+      {
+        "id": 7,
+        "name": "会展中心",
+        "sort": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "appType": "takeout",
+    "title": "数据错误",
+    "content": "订单状态显示与实际不符，已支付仍显示未支付。",
+    "userId": 2,
+    "createTime": "2026-10-16 10:30:00"
+  }
+}

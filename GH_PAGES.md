@@ -126,6 +126,9 @@ Pages 没有后端，但 `docs/prod-api/` 里已经把每个 **GET** 接口按�
 { "code": 200, "msg": "查询成功", "rows": [ ... ], "total": 6 }
 ```
 
+> 加 `.json` 后缀体验更好：`/prod-api/api/rotation/list.json` 的 `Content-Type` 是 `application/json`，
+> Postman 会自动格式化和高亮；不带后缀也能取到同样的内容，但类型是 `application/octet-stream`。
+
 **规则与限制**
 
 | 项目 | 说明 |
@@ -134,7 +137,7 @@ Pages 没有后端，但 `docs/prod-api/` 里已经把每个 **GET** 接口按�
 | 查询参数 | 不生效（静态文件不解析 query）。固定返回第一页 10 条，`total` 是真实总数 |
 | 详情接口 | `/{id}` 预生成了 id 1~6，如 `/prod-api/api/park/lot/1` |
 | 路径冲突 | 有 3 个接口同时是别的接口的父路径（`/api/metro/line`、`/api/living/phone`、`/api/common/weather`），目录不能与文件同名，这三个用 `.json` 后缀：`/prod-api/api/metro/line.json` |
-| 全量索引 | `GET /prod-api/index.json` 列出所有可请求的路径 |
+| 全量索引 | `GET /prod-api/index.json` 列出所有可请求的路径（含 `.json` 别名） |
 
 > 重新生成：`npm run build`（先 `build:static` 再 `build:api`），然后提交 `docs/` 推送即可。
 

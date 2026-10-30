@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "userId": 2,
+    "name": "王先生",
+    "phone": "15898135272",
+    "addressDetail": "大连市甘井子区软件园路 1 号",
+    "houseNumber": "",
+    "label": "公司",
+    "isDefault": "N",
+    "longitude": "121.614682",
+    "latitude": "38.914003"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "appType": "movie",
+      "userId": 2,
+      "event": "缴纳违章罚款",
+      "changeAmount": 200,
+      "changeType": "收入",
+      "userName": "test02",
+      "changeTime": "2026-10-21 10:30:45"
+    },
+    {
+      "id": 2,
+      "appType": "park",
+      "userId": 2,
+      "event": "停车缴费",
+      "changeAmount": 5,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-20 11:30:45"
+    },
+    {
+      "id": 3,
+      "appType": "metro",
+      "userId": 2,
+      "event": "地铁乘车",
+      "changeAmount": 3,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-19 12:30:45"
+    },
+    {
+      "id": 4,
+      "appType": "living",
+      "userId": 2,
+      "event": "电费缴纳",
+      "changeAmount": 100,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-18 13:30:45"
+    },
+    {
+      "id": 5,
+      "appType": "takeout",
+      "userId": 2,
+      "event": "外卖订单",
+      "changeAmount": 64,
+      "changeType": "收入",
+      "userName": "test02",
+      "changeTime": "2026-10-17 14:30:45"
+    },
+    {
+      "id": 6,
+      "appType": "movie",
+      "userId": 2,
+      "event": "钱包充值",
+      "changeAmount": 500,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-16 15:30:45"
+    },
+    {
+      "id": 7,
+      "appType": "park",
+      "userId": 2,
+      "event": "电影购票",
+      "changeAmount": 50,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-15 16:30:45"
+    },
+    {
+      "id": 8,
+      "appType": "metro",
+      "userId": 2,
+      "event": "话费充值",
+      "changeAmount": 49,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-14 17:30:45"
+    },
+    {
+      "id": 9,
+      "appType": "living",
+      "userId": 2,
+      "event": "缴纳违章罚款",
+      "changeAmount": 200,
+      "changeType": "收入",
+      "userName": "test02",
+      "changeTime": "2026-10-13 09:30:45"
+    },
+    {
+      "id": 10,
+      "appType": "takeout",
+      "userId": 2,
+      "event": "停车缴费",
+      "changeAmount": 5,
+      "changeType": "支出",
+      "userName": "test02",
+      "changeTime": "2026-10-12 10:30:45"
+    }
+  ],
+  "total": 12
+}

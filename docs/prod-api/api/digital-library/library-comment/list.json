@@ -1,0 +1,79 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "libraryId": 2,
+      "libraryName": "城市与文明：一部城市史",
+      "userId": 2,
+      "userName": "test02",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "内容详实，值得一读。",
+      "createTime": "2026-10-19 10:30:00",
+      "likeNum": 6,
+      "myLikeState": false
+    },
+    {
+      "id": 2,
+      "libraryId": 3,
+      "libraryName": "数字治理：从理念到实践",
+      "userId": 2,
+      "userName": "读者小王",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "案例丰富，对工作很有启发。",
+      "createTime": "2026-10-18 10:30:00",
+      "likeNum": 12,
+      "myLikeState": false
+    },
+    {
+      "id": 3,
+      "libraryId": 4,
+      "libraryName": "城市与文明：一部城市史",
+      "userId": 2,
+      "userName": "test02",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "排版一般，但观点新颖。",
+      "createTime": "2026-10-17 10:30:00",
+      "likeNum": 18,
+      "myLikeState": false
+    },
+    {
+      "id": 4,
+      "libraryId": 1,
+      "libraryName": "数字治理：从理念到实践",
+      "userId": 2,
+      "userName": "读者小王",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "内容详实，值得一读。",
+      "createTime": "2026-10-16 10:30:00",
+      "likeNum": 24,
+      "myLikeState": false
+    },
+    {
+      "id": 5,
+      "libraryId": 2,
+      "libraryName": "城市与文明：一部城市史",
+      "userId": 2,
+      "userName": "test02",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "案例丰富，对工作很有启发。",
+      "createTime": "2026-10-15 10:30:00",
+      "likeNum": 30,
+      "myLikeState": false
+    },
+    {
+      "id": 6,
+      "libraryId": 3,
+      "libraryName": "数字治理：从理念到实践",
+      "userId": 2,
+      "userName": "读者小王",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(190%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(214%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E8%AF%BB%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "content": "排版一般，但观点新颖。",
+      "createTime": "2026-10-14 10:30:00",
+      "likeNum": 36,
+      "myLikeState": false
+    }
+  ],
+  "total": 6
+}

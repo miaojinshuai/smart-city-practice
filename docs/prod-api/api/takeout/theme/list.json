@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "themeName": "美食",
+      "themeDesc": "美食来找我",
+      "imgUrl": "img/food1.jpg",
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "themeName": "快餐",
+      "themeDesc": "快速送达",
+      "imgUrl": "img/food2.jpg",
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "themeName": "甜品饮品",
+      "themeDesc": "甜蜜时光",
+      "imgUrl": "img/food3.jpg",
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "themeName": "地方菜",
+      "themeDesc": "家乡味道",
+      "imgUrl": "img/food4.jpg",
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "themeName": "炸鸡汉堡",
+      "themeDesc": "香脆可口",
+      "imgUrl": "img/food6.jpg",
+      "sort": 5
+    },
+    {
+      "id": 6,
+      "themeName": "轻食沙拉",
+      "themeDesc": "健康轻食",
+      "imgUrl": "img/food7.jpg",
+      "sort": 6
+    }
+  ],
+  "total": 6
+}

@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "userId": 2,
+    "appealCategoryId": 2,
+    "appealCategoryName": "衣食住行",
+    "title": "这是一个诉求",
+    "content": "因为疫情，物价实在太高了，请处理一下。",
+    "undertaker": "物价局",
+    "state": "2",
+    "stateName": "待受理",
+    "createTime": "2026-10-20 15:38:50",
+    "detailResult": "已转交相关部门核实处理，处理结果将第一时间反馈。",
+    "imgUrl": "img/news3.jpg"
+  }
+}

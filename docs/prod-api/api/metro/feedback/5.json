@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "appType": "movie",
+    "title": "体验建议",
+    "content": "希望增加夜间模式，方便夜间使用。",
+    "userId": 2,
+    "createTime": "2026-10-15 10:30:00"
+  }
+}

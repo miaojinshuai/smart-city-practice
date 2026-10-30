@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "500 元加油卡",
+      "price": 500,
+      "score": 300,
+      "cover": "img/city3.jpg",
+      "total": 100,
+      "stock": 88,
+      "isExchange": "Y"
+    },
+    {
+      "id": 2,
+      "name": "洗车券（单次）",
+      "price": 30,
+      "score": 20,
+      "cover": "img/city1.jpg",
+      "total": 500,
+      "stock": 300,
+      "isExchange": "Y"
+    },
+    {
+      "id": 3,
+      "name": "车载吸尘器",
+      "price": 199,
+      "score": 150,
+      "cover": "img/city2.jpg",
+      "total": 60,
+      "stock": 42,
+      "isExchange": "Y"
+    },
+    {
+      "id": 4,
+      "name": "玻璃水 2L",
+      "price": 25,
+      "score": 15,
+      "cover": "img/city3.jpg",
+      "total": 800,
+      "stock": 500,
+      "isExchange": "Y"
+    },
+    {
+      "id": 5,
+      "name": "停车 1 小时抵扣券",
+      "price": 5,
+      "score": 3,
+      "cover": "img/city1.jpg",
+      "total": 999,
+      "stock": 900,
+      "isExchange": "Y"
+    },
+    {
+      "id": 6,
+      "name": "行车记录仪",
+      "price": 359,
+      "score": 260,
+      "cover": "img/city2.jpg",
+      "total": 40,
+      "stock": 20,
+      "isExchange": "Y"
+    }
+  ],
+  "total": 6
+}

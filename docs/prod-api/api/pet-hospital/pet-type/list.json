@@ -1,0 +1,43 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 10,
+      "name": "小猫咪",
+      "imgUrl": "img/pet2.jpg",
+      "sort": 1
+    },
+    {
+      "id": 11,
+      "name": "小狗",
+      "imgUrl": "img/pet3.jpg",
+      "sort": 2
+    },
+    {
+      "id": 12,
+      "name": "兔子",
+      "imgUrl": "img/pet1.jpg",
+      "sort": 3
+    },
+    {
+      "id": 13,
+      "name": "仓鼠",
+      "imgUrl": "img/pet2.jpg",
+      "sort": 4
+    },
+    {
+      "id": 14,
+      "name": "鹦鹉",
+      "imgUrl": "img/pet3.jpg",
+      "sort": 5
+    },
+    {
+      "id": 15,
+      "name": "乌龟",
+      "imgUrl": "img/pet1.jpg",
+      "sort": 6
+    }
+  ],
+  "total": 6
+}

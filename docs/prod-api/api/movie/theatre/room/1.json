@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "theaterId": 1,
+    "name": "1 厅",
+    "status": "N",
+    "seatRows": 8,
+    "seatCols": 12,
+    "type": "IMAX"
+  }
+}

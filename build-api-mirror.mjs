@@ -23,6 +23,9 @@ const writeJSON = (rel, obj) => {
   const p = path.join(OUT, rel);
   fs.mkdirSync(path.dirname(p), { recursive: true });
   fs.writeFileSync(p, JSON.stringify(obj, null, 2));
+  // 无扩展名文件被 Pages 标记成 octet-stream，Postman 不会自动按 JSON 展示，
+  // 所以再落一份 .json 别名（浏览器/Postman 都能直接美化）
+  if (!rel.endsWith('.json')) fs.writeFileSync(p + '.json', JSON.stringify(obj, null, 2));
 };
 
 // 既是接口又有一级子接口的路径（如 /api/metro/line 与 /api/metro/line/{id}），
@@ -56,7 +59,7 @@ for (const e of manifest) {
       total: items.length,
     });
     listN++;
-    index.push({ url: e.pattern, kind: 'list', total: items.length, ...(CONFLICT.has(e.pattern) ? { mirror: e.pattern + '.json' } : {}) });
+    index.push({ url: e.pattern, kind: 'list', total: items.length, json: e.pattern + '.json' });
   } else if (data.kind === 'detail') {
     let any = false;
     for (const id of Object.keys(data.byId || {})) {
@@ -64,11 +67,11 @@ for (const e of manifest) {
       writeJSON(rel.replace(/\{[^}]+\}/g, id), body);
       any = true;
     }
-    if (any) { detailN++; index.push({ url: e.pattern, kind: 'detail', ids: Object.keys(data.byId).length }); }
+    if (any) { detailN++; index.push({ url: e.pattern, kind: 'detail', ids: Object.keys(data.byId).length, json: e.pattern + '.json' }); }
   } else {
     writeJSON(rel, data.resp || { code: 200, msg: '操作成功' });
     objN++;
-    index.push({ url: e.pattern, kind: 'object', ...(CONFLICT.has(e.pattern) ? { mirror: e.pattern + '.json' } : {}) });
+    index.push({ url: e.pattern, kind: 'object', json: e.pattern + '.json' });
   }
 }
 

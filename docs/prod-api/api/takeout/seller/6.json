@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "name": "麦香烘焙工坊",
+    "address": "辽宁省大连市中山区人民路 66 号",
+    "introduction": "每日现烤",
+    "themeId": 1,
+    "score": 4.6,
+    "saleQuantity": 542,
+    "deliveryTime": 25,
+    "imgUrl": "img/seller1.jpg",
+    "avgCost": 15,
+    "other": null,
+    "recommend": "N",
+    "distance": 1740,
+    "saleNum3hour": 28,
+    "deliveryFee": 0,
+    "status": "1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "sourceName": "中山区学区房 三室两厅 南北通透",
+    "address": "中山区学区房 三室两厅 南北通透",
+    "areaSize": 128,
+    "tel": "18546474544",
+    "price": "26800/㎡",
+    "houseType": "二手房",
+    "pic": "img/house3.jpg",
+    "description": "房屋采光良好，周边配套齐全，交通便利，临近地铁与商圈。小区绿化率高，物业 24 小时安保。",
+    "district": "西岗区",
+    "floor": "中楼层/18 层",
+    "orientation": "南北"
+  }
+}

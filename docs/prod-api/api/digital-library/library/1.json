@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "name": "城市与文明：一部城市史",
+    "author": "刘易斯·芒福德",
+    "cover": "img/library2.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "商务印书馆",
+    "publishDate": "2021-05-01",
+    "category": "城市规划",
+    "score": 8.1,
+    "readNum": 188,
+    "commentNum": 4,
+    "isbn": "978-7-100-12001",
+    "location": "市图书馆 2 楼 11 排"
+  }
+}

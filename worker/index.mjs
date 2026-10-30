@@ -410,6 +410,16 @@ export default {
 
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS_HEADERS });
 
+    // 根域只做跳转，避免占用主域名
+    if (url.hostname === 'qixingba.dpdns.org') {
+      return Response.redirect('https://api.qixingba.dpdns.org' + url.pathname + url.search, 301);
+    }
+
+    // 非接口路径交给静态资源（根路径 / 会进 Worker，其余路径由 assets 直接处理）
+    if (!url.pathname.startsWith('/prod-api/') && url.pathname !== '/mock/health') {
+      if (env && env.ASSETS) return env.ASSETS.fetch(request);
+    }
+
     if (url.pathname === '/mock/health') {
       return json({
         ok: true,

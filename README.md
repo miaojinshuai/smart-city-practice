@@ -21,7 +21,7 @@ node server.mjs
 
 **② Cloudflare Worker 版（支持 POST/PUT/DELETE，数据存 D1）**
 
-线上地址：**<https://qixingba.dpdns.org>**（`/prod-api/...` 直接可用）
+线上地址：**<https://api.qixingba.dpdns.org>**（网站 + `/prod-api/...` 同域，读写走 D1）
 
 ```bash
 node worker/deploy.mjs     # 需 CLOUDFLARE_API_TOKEN，自动建库/灌数据/部署

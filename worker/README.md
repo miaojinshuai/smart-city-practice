@@ -6,8 +6,11 @@
 
 | 用途 | 地址 |
 | --- | --- |
-| 主域名（推荐，Postman 直接用） | `https://qixingba.dpdns.org` |
-| workers.dev 备用 | `https://smart-city-mock.857560481ma.workers.dev` |
+| 站点 + 接口（推荐） | `https://api.qixingba.dpdns.org` |
+| 根域 | `https://qixingba.dpdns.org` → 301 跳转到 api |
+
+> 同一个域名既要网站又要接口：`/prod-api/*`、`/mock/*` 走 Worker，其余路径走 `[assets]`（`docs/` 目录）。
+> `workers.dev` 已关闭（`workers_dev = false`）。
 
 - 代码：`worker/index.mjs`
 - 配置：根目录 `wrangler.toml`
@@ -115,19 +118,19 @@ localStorage.removeItem('API_SITE'); location.reload();
 ## 五、接口自检
 
 ```bash
-curl https://qixingba.dpdns.org/mock/health
+curl https://api.qixingba.dpdns.org/mock/health
 # {"ok":true,"storage":"d1","endpoints":305,"datasets":145,...}
 
-curl https://qixingba.dpdns.org/prod-api/api/rotation/list
+curl https://api.qixingba.dpdns.org/prod-api/api/rotation/list
 
 curl -X POST -H "Content-Type: application/json" \
      -d '{"username":"test02","password":"123456"}' \
-     https://qixingba.dpdns.org/prod-api/api/login
+     https://api.qixingba.dpdns.org/prod-api/api/login
 
 # 增删改
-curl -X POST https://qixingba.dpdns.org/prod-api/api/park/car \
+curl -X POST https://api.qixingba.dpdns.org/prod-api/api/park/car \
      -H "Content-Type: application/json" -d '{"plateNo":"辽B66666","type":"小型汽车"}'
-curl -X PUT  https://qixingba.dpdns.org/prod-api/api/park/car/4 \
+curl -X PUT  https://api.qixingba.dpdns.org/prod-api/api/park/car/4 \
      -H "Content-Type: application/json" -d '{"plateNo":"辽B88888"}'
-curl -X DELETE https://qixingba.dpdns.org/prod-api/api/park/car/4
+curl -X DELETE https://api.qixingba.dpdns.org/prod-api/api/park/car/4
 ```

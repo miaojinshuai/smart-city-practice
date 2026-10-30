@@ -70,10 +70,11 @@ CREATE TABLE kv (k TEXT PRIMARY KEY, v TEXT NOT NULL, updated_at TEXT);
 
 | 场景 | 行为 |
 | --- | --- |
-| 冷启动 | `SELECT k, v FROM kv` 一次性加载（145 行，约 60 KB），与默认数据合并 |
-| 读接口 | 走内存，不查库 |
-| 写接口 | 只回写被修改的那个数据集（数组级 UPSERT），不整库覆盖 |
-| 多实例 | 各自启动时读库；写后其他实例要等冷启动才看到（秒级最终一致） |
+| 读接口 | **每次请求都查 D1**（`SELECT v FROM kv WHERE k = ?`，只查当前接口用到的数据集） |
+| 写接口 | 改内存后回写该数据集（`INSERT ... ON CONFLICT DO UPDATE`），下一次读立刻是新值 |
+| 在 D1 控制台改数据 | 立即生效，无需重启 Worker |
+| 多实例 | 每次都读库，天然一致 |
+| 无 D1 绑定 | 退回内置数据（内存态），行为同原 Node 版 |
 
 **初始化 D1**
 

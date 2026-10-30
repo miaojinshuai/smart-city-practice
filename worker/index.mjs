@@ -15,35 +15,46 @@ import endpoints from './endpoints.mjs';
  * 没绑定时退化为进程内存（与原 Node 版行为一致）。
  */
 let db = null;
-let loaded = false;
 
-async function ensureDB(env) {
-  if (loaded) return db;
-  loaded = true;
-  // 深拷贝，避免污染模块级种子数据（isolate 复用时尤其重要）
-  db = structuredClone(seedDB);
-  if (!env || !env.DB) return db;
-  try {
-    const { results } = await env.DB.prepare('SELECT k, v FROM kv').all();
-    const patch = {};
-    for (const r of results || []) {
-      try { patch[r.k] = JSON.parse(r.v); } catch { /* 跳过脏数据 */ }
-    }
-    Object.assign(db, patch);
-  } catch (e) {
-    console.error('[d1] 加载失败，回退到内存数据：', e.message);
-  }
+function baseDB() {
+  if (!db) db = structuredClone(seedDB);
   return db;
+}
+
+/** 读：每次都从 D1 取该数据集最新内容（无绑定时用内置数据） */
+async function ensureKey(env, key) {
+  const d = baseDB();
+  if (!env || !env.DB || !key) return d[key];
+  try {
+    const row = await env.DB.prepare('SELECT v FROM kv WHERE k = ?').bind(key).first();
+    if (row && row.v) d[key] = JSON.parse(row.v);
+  } catch (e) {
+    console.error('[d1] 读取失败', key, e.message);
+  }
+  return d[key];
+}
+
+/** 一次请求需要读哪些数据集 */
+function neededKeys(p, method) {
+  if (p.startsWith('/prod-api/api/common/user')) return ['user'];
+  if (p.startsWith('/prod-api/api/common/weather')) return ['weather'];
+  if (p.includes('/system/dict/data/type/')) return ['dict'];
+  if (p.includes('logistics_info/')) return ['logisticsInfo'];
+  if (p.includes('takeout/order/create')) return ['takeout/product', 'takeout/seller', 'takeout/order'];
+  if (p.includes('takeout/pay')) return ['takeout/order'];
+  const k = resolveKey(p);
+  return k ? [k] : [];
 }
 
 /** 把某个数据集整体写回 D1（数组级粒度，一次写一个 key） */
 async function saveKey(env, key) {
-  if (!env || !env.DB || !db || !db[key]) return;
+  const d = baseDB();
+  if (!env || !env.DB || !d[key]) return;
   try {
     await env.DB.prepare(
       'INSERT INTO kv (k, v, updated_at) VALUES (?, ?, ?) ' +
       'ON CONFLICT(k) DO UPDATE SET v = excluded.v, updated_at = excluded.updated_at'
-    ).bind(key, JSON.stringify(db[key]), now()).run();
+    ).bind(key, JSON.stringify(d[key]), now()).run();
   } catch (e) {
     console.error('[d1] 写入失败', key, e.message);
   }
@@ -124,13 +135,13 @@ function resolveKey(p) {
 
   for (const t of tries) {
     if (ALIAS[t] !== undefined) return ALIAS[t];
-    if (db[t]) return t;
-    if (t.endsWith('s') && db[t.slice(0, -1)]) return t.slice(0, -1);
+    if (seedDB[t]) return t;
+    if (t.endsWith('s') && seedDB[t.slice(0, -1)]) return t.slice(0, -1);
   }
   const mod = segs[0];
   for (const t of tries) {
     const k = `${mod}/${t}`;
-    if (db[k]) return k;
+    if (seedDB[k]) return k;
   }
   return null;
 }
@@ -162,8 +173,8 @@ function filterList(list, q) {
 
 /* ------------------------------------------------------------ API 分发 */
 async function handleApi(request, url, env) {
-  await ensureDB(env);
   const p = url.pathname;
+  for (const k of neededKeys(p, request.method)) await ensureKey(env, k);
   const q = Object.fromEntries(url.searchParams.entries());
   const method = request.method;
 
@@ -398,13 +409,12 @@ export default {
     if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS_HEADERS });
 
     if (url.pathname === '/mock/health') {
-      await ensureDB(env);
       return json({
         ok: true,
         runtime: 'cloudflare-worker',
         endpoints: endpoints.length,
         modules: [...new Set(endpoints.map((e) => e.module))].length,
-        datasets: Object.keys(db).length,
+        datasets: Object.keys(baseDB()).length,
         storage: env && env.DB ? 'd1' : 'memory',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         time: now(),

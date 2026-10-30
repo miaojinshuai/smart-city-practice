@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "imgUrl": "img/news3.jpg",
+    "foundTime": "2026-09-10",
+    "foundPlace": "10 号线国贸站",
+    "title": "学生卡",
+    "content": "请失主携带有效身份证件到车站客服中心认领，或拨打服务热线 96165。",
+    "status": "1",
+    "userId": 2,
+    "foundUserName": "王先生"
+  }
+}

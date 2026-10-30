@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "userId": 2,
+    "appealCategoryId": 5,
+    "appealCategoryName": "教育医疗",
+    "title": "公交站牌信息错误",
+    "content": "因为疫情，物价实在太高了，请处理一下。",
+    "undertaker": "交通运输局",
+    "state": "2",
+    "stateName": "待受理",
+    "createTime": "2026-10-17 15:38:50",
+    "detailResult": "已转交相关部门核实处理，处理结果将第一时间反馈。",
+    "imgUrl": "img/news3.jpg"
+  }
+}

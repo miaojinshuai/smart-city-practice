@@ -1,0 +1,43 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "北京市",
+      "code": 101,
+      "imgUrl": "img/metro5.jpg"
+    },
+    {
+      "id": 2,
+      "name": "上海市",
+      "code": 102,
+      "imgUrl": "img/metro6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "广州市",
+      "code": 103,
+      "imgUrl": "img/metro1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "深圳市",
+      "code": 104,
+      "imgUrl": "img/metro2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "大连市",
+      "code": 105,
+      "imgUrl": "img/metro3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "成都市",
+      "code": 106,
+      "imgUrl": "img/metro4.jpg"
+    }
+  ],
+  "total": 6
+}

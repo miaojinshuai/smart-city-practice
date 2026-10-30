@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "4 号线",
+    "first": "天宫院",
+    "end": "生物医药基地",
+    "startTime": "05:25",
+    "endTime": "23:00",
+    "cityId": 5,
+    "stationsNumber": 22,
+    "km": 32,
+    "runStationsName": "西苑,北宫门,安河桥北,海淀黄庄,人民大学",
+    "price": 3,
+    "color": "#f6b73c"
+  }
+}

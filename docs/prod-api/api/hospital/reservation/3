@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "orderNo": "1603537663213",
+    "patientName": "王大卫",
+    "categoryId": 4,
+    "categoryName": "心血管内科",
+    "type": "1",
+    "money": 9,
+    "reserveTime": "2026-11-05 09:00",
+    "status": "已完成",
+    "hospitalId": 1,
+    "hospitalName": "大连市中心医院",
+    "createTime": "2026-10-17 10:30:00",
+    "userId": 2
+  }
+}

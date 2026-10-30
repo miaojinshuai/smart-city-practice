@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "name": "炸匠先森·韩式炸鸡",
+    "address": "辽宁省大连市沙河口区西安路 99 号",
+    "introduction": "选好肉炸好鸡",
+    "themeId": 3,
+    "score": 4.2,
+    "saleQuantity": 314,
+    "deliveryTime": 30,
+    "imgUrl": "img/seller3.jpg",
+    "avgCost": 31,
+    "other": null,
+    "recommend": "N",
+    "distance": 780,
+    "saleNum3hour": 16,
+    "deliveryFee": 3,
+    "status": "1"
+  }
+}

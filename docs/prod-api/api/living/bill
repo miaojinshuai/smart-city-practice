@@ -1,0 +1,77 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "billNo": "2026102713580911",
+      "title": "第一季度电费",
+      "amount": 100,
+      "chargeUnit": "水电公司",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15674931",
+      "categoryId": 2,
+      "payStatus": "未缴费",
+      "createTime": "2026-10-19 10:30:00",
+      "deadline": "2026-11-11",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "billNo": "2026102713580912",
+      "title": "10 月水费",
+      "amount": 45,
+      "chargeUnit": "燃气公司",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15674932",
+      "categoryId": 3,
+      "payStatus": "未缴费",
+      "createTime": "2026-10-18 10:30:00",
+      "deadline": "2026-11-12",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "billNo": "2026102713580913",
+      "title": "9 月燃气费",
+      "amount": 68,
+      "chargeUnit": "通信运营商",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15674933",
+      "categoryId": 4,
+      "payStatus": "已缴费",
+      "createTime": "2026-10-17 10:30:00",
+      "deadline": "2026-11-13",
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "billNo": "2026102713580914",
+      "title": "宽带续费",
+      "amount": 120,
+      "chargeUnit": "水电公司",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15674934",
+      "categoryId": 5,
+      "payStatus": "已缴费",
+      "createTime": "2026-10-16 10:30:00",
+      "deadline": "2026-11-14",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "billNo": "2026102713580915",
+      "title": "有线电视费",
+      "amount": 25,
+      "chargeUnit": "燃气公司",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15674935",
+      "categoryId": 6,
+      "payStatus": "已缴费",
+      "createTime": "2026-10-15 10:30:00",
+      "deadline": "2026-11-15",
+      "userId": 2
+    }
+  ],
+  "total": 5
+}

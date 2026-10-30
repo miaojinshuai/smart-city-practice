@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "parkName": "国际大厦停车场",
+    "vacancy": "30",
+    "priceCaps": "30",
+    "imgUrl": "img/park1.jpg",
+    "rates": "5",
+    "address": "大连市中山区人民路 66 号",
+    "distance": "20",
+    "allPark": "90",
+    "open": "Y",
+    "lotType": "地面"
+  }
+}

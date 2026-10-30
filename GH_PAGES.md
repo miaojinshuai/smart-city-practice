@@ -110,7 +110,35 @@ jobs:
 
 ---
 
-## 四、静态版能力对照
+## 四、用 Postman 直接调接口
+
+Pages 没有后端，但 `docs/prod-api/` 里已经把每个 **GET** 接口按原路径落成了静态文件，
+所以文档里的 URL 换个域名就能直接请求：
+
+```
+文档里  https://your-host/prod-api/api/rotation/list
+线上    https://miaojinshuai.github.io/smart-city-practice/prod-api/api/rotation/list
+```
+
+返回体就是标准结构：
+
+```json
+{ "code": 200, "msg": "查询成功", "rows": [ ... ], "total": 6 }
+```
+
+**规则与限制**
+
+| 项目 | 说明 |
+| --- | --- |
+| 支持方法 | 仅 `GET`。`POST / PUT / DELETE` 静态托管不支持（会 405），请用站点内「接口文档 → 在线调试」 |
+| 查询参数 | 不生效（静态文件不解析 query）。固定返回第一页 10 条，`total` 是真实总数 |
+| 详情接口 | `/{id}` 预生成了 id 1~6，如 `/prod-api/api/park/lot/1` |
+| 路径冲突 | 有 3 个接口同时是别的接口的父路径（`/api/metro/line`、`/api/living/phone`、`/api/common/weather`），目录不能与文件同名，这三个用 `.json` 后缀：`/prod-api/api/metro/line.json` |
+| 全量索引 | `GET /prod-api/index.json` 列出所有可请求的路径 |
+
+> 重新生成：`npm run build`（先 `build:static` 再 `build:api`），然后提交 `docs/` 推送即可。
+
+## 五、静态版能力对照
 
 | 功能 | 本地 Node 版 | GitHub Pages 版 |
 | --- | --- | --- |
@@ -130,7 +158,7 @@ jobs:
 
 ---
 
-## 五、注意事项
+## 六、注意事项
 
 1. **子路径已适配**：所有资源都使用相对路径，放在 `https://user.github.io/repo/` 这类子目录下也能正常加载。
 2. **仓库体积**：`docs/` 约 9 MB（图片 7 MB + 静态接口 0.63 MB），远低于 Pages 的 1 GB 限制。

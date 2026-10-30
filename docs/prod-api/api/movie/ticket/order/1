@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "orderNo": "2026100900095356431",
+    "theaterId": 2,
+    "theaterName": "金逸影城",
+    "roomId": 2,
+    "roomName": "2 厅",
+    "timesId": 2,
+    "movieId": 2,
+    "movieName": "变形金刚：超能勇士崛起",
+    "price": 50,
+    "num": 2,
+    "status": "未支付",
+    "userId": 2,
+    "createTime": "2026-10-20 15:20:00",
+    "playDate": "2026-10-25",
+    "startTime": "19:30",
+    "seatInfo": "5 排 6 座,5 排 7 座"
+  }
+}

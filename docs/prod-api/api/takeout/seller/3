@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "name": "柚见初夏奶茶",
+    "address": "辽宁省大连市中山区人民路 66 号",
+    "introduction": "现煮茶饮",
+    "themeId": 4,
+    "score": 4.3,
+    "saleQuantity": 371,
+    "deliveryTime": 35,
+    "imgUrl": "img/seller1.jpg",
+    "avgCost": 39,
+    "other": null,
+    "recommend": "N",
+    "distance": 1020,
+    "saleNum3hour": 19,
+    "deliveryFee": 0,
+    "status": "1"
+  }
+}

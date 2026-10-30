@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "appType": "smart_city",
+    "newsId": 2,
+    "content": "希望增加进度公示。",
+    "commentDate": "2026-10-17 17:30:25",
+    "userId": 2,
+    "likeNum": 12,
+    "userName": "王五",
+    "newsTitle": "地铁 5 号线二期工程进入联调联试阶段，预计年底开通"
+  }
+}

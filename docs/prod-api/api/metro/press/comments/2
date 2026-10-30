@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "appType": "smart_city",
+    "newsId": 3,
+    "content": "支持！希望覆盖更多社区。",
+    "commentDate": "2026-10-19 17:30:25",
+    "userId": 2,
+    "likeNum": 6,
+    "userName": "张三",
+    "newsTitle": "城市大脑上线运行一周年，累计处置城市事件 12.6 万件"
+  }
+}

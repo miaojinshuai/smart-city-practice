@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "maxTemperature": "22",
+    "minTemperature": "12",
+    "temperature": "18",
+    "weather": "晴",
+    "humidity": "60",
+    "air": "优",
+    "apparentTemperature": "17",
+    "uv": "弱",
+    "wind": "东北风 3 级",
+    "city": "大连市",
+    "updateTime": "2026-10-22 08:00:00",
+    "week": "星期四"
+  }
+}

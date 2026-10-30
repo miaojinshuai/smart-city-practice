@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "name": "横店影城",
+    "cover": "img/poster5.jpg",
+    "province": "辽宁省",
+    "city": "大连市",
+    "area": "甘井子区",
+    "address": "中山区人民路 66 号",
+    "score": 4.6,
+    "tags": "IMAX,杜比全景声,3D",
+    "brand": "CGV",
+    "distance": "2000 米",
+    "status": "Y",
+    "movieId": null,
+    "timesId": null,
+    "tel": "0411-88886"
+  }
+}

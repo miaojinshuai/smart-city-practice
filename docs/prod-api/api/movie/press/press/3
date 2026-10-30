@@ -1,0 +1,20 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "appType": "movie",
+    "cover": "img/movie6.jpg",
+    "title": "国庆档影片阵容公布，八部新片同台竞技",
+    "subTitle": "影视资讯 · 每日更新",
+    "content": "<p>据发行方消息，影片自上映以来口碑持续走高，排片占比稳步提升。</p>",
+    "status": "Y",
+    "publishDate": "2026-10-19",
+    "commentNum": 6,
+    "likeNum": 89,
+    "readNum": 860,
+    "type": "30",
+    "top": "N",
+    "hot": "Y"
+  }
+}

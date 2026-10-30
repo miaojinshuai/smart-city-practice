@@ -1,0 +1,79 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "companyId": 2,
+      "userId": 2,
+      "infoNo": "ST0000001",
+      "questionType": "2",
+      "questionTypeName": "快递延误",
+      "description": "帮我看看这个快递到底是怎么回事，谢谢。",
+      "createTime": "2026-10-20 15:21:58",
+      "state": "1",
+      "stateName": "处理中",
+      "company": {
+        "id": 2,
+        "name": "圆通物流",
+        "sort": 1,
+        "imgUrl": "img/logistics3.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "companyId": 3,
+      "userId": 2,
+      "infoNo": "ST0000002",
+      "questionType": "3",
+      "questionTypeName": "包裹破损",
+      "description": "帮我看看这个快递到底是怎么回事，谢谢。",
+      "createTime": "2026-10-19 15:21:58",
+      "state": "1",
+      "stateName": "处理中",
+      "company": {
+        "id": 3,
+        "name": "中通快递",
+        "sort": 2,
+        "imgUrl": "img/logistics1.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "companyId": 4,
+      "userId": 2,
+      "infoNo": "ST0000003",
+      "questionType": "1",
+      "questionTypeName": "服务态度",
+      "description": "帮我看看这个快递到底是怎么回事，谢谢。",
+      "createTime": "2026-10-18 15:21:58",
+      "state": "1",
+      "stateName": "处理中",
+      "company": {
+        "id": 4,
+        "name": "顺丰速运",
+        "sort": 3,
+        "imgUrl": "img/logistics2.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "companyId": 5,
+      "userId": 2,
+      "infoNo": "ST0000004",
+      "questionType": "2",
+      "questionTypeName": "快递延误",
+      "description": "帮我看看这个快递到底是怎么回事，谢谢。",
+      "createTime": "2026-10-17 15:21:58",
+      "state": "1",
+      "stateName": "处理中",
+      "company": {
+        "id": 5,
+        "name": "韵达快递",
+        "sort": 4,
+        "imgUrl": "img/logistics3.jpg"
+      }
+    }
+  ],
+  "total": 4
+}

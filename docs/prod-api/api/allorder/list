@@ -1,0 +1,117 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "orderNo": "2026101001061885221",
+      "amount": 58,
+      "orderStatus": "未付款",
+      "userId": 2,
+      "payTime": "2026-10-20",
+      "name": "中影华臣影城",
+      "orderType": "movie",
+      "createTime": "2026-10-20 10:30:00"
+    },
+    {
+      "id": 2,
+      "orderNo": "2026101001061885222",
+      "amount": 64,
+      "orderStatus": "未付款",
+      "userId": 2,
+      "payTime": "2026-10-19",
+      "name": "国际大厦停车场",
+      "orderType": "park",
+      "createTime": "2026-10-19 10:30:00"
+    },
+    {
+      "id": 3,
+      "orderNo": "2026101001061885223",
+      "amount": 3,
+      "orderStatus": "未付款",
+      "userId": 2,
+      "payTime": "2026-10-18",
+      "name": "1 号线地铁",
+      "orderType": "metro",
+      "createTime": "2026-10-18 10:30:00"
+    },
+    {
+      "id": 4,
+      "orderNo": "2026101001061885224",
+      "amount": 100,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-17",
+      "name": "电费缴纳",
+      "orderType": "living",
+      "createTime": "2026-10-17 10:30:00"
+    },
+    {
+      "id": 5,
+      "orderNo": "2026101001061885225",
+      "amount": 45,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-16",
+      "name": "皖北刘哥牛肉板面",
+      "orderType": "takeout",
+      "createTime": "2026-10-16 10:30:00"
+    },
+    {
+      "id": 6,
+      "orderNo": "2026101001061885226",
+      "amount": 58,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-15",
+      "name": "中影华臣影城",
+      "orderType": "movie",
+      "createTime": "2026-10-15 10:30:00"
+    },
+    {
+      "id": 7,
+      "orderNo": "2026101001061885227",
+      "amount": 64,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-14",
+      "name": "国际大厦停车场",
+      "orderType": "park",
+      "createTime": "2026-10-14 10:30:00"
+    },
+    {
+      "id": 8,
+      "orderNo": "2026101001061885228",
+      "amount": 3,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-13",
+      "name": "1 号线地铁",
+      "orderType": "metro",
+      "createTime": "2026-10-13 10:30:00"
+    },
+    {
+      "id": 9,
+      "orderNo": "2026101001061885229",
+      "amount": 100,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-12",
+      "name": "电费缴纳",
+      "orderType": "living",
+      "createTime": "2026-10-12 10:30:00"
+    },
+    {
+      "id": 10,
+      "orderNo": "2026101001061885230",
+      "amount": 45,
+      "orderStatus": "已付款",
+      "userId": 2,
+      "payTime": "2026-10-11",
+      "name": "皖北刘哥牛肉板面",
+      "orderType": "takeout",
+      "createTime": "2026-10-11 10:30:00"
+    }
+  ],
+  "total": 10
+}

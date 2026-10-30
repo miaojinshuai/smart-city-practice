@@ -1,0 +1,20 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "appType": "movie",
+    "cover": "img/movie7.jpg",
+    "title": "《你好，李焕英》舞台剧版启动全国巡演",
+    "subTitle": "影视资讯 · 每日更新",
+    "content": "<p>据发行方消息，影片自上映以来口碑持续走高，排片占比稳步提升。</p>",
+    "status": "Y",
+    "publishDate": "2026-10-18",
+    "commentNum": 7,
+    "likeNum": 102,
+    "readNum": 980,
+    "type": "31",
+    "top": "N",
+    "hot": "N"
+  }
+}

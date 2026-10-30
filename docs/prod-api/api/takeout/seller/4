@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "老碗面·手工拉面",
+    "address": "辽宁省大连市甘井子区新新园 79 号",
+    "introduction": "手工现拉",
+    "themeId": 5,
+    "score": 4.4,
+    "saleQuantity": 428,
+    "deliveryTime": 40,
+    "imgUrl": "img/seller2.jpg",
+    "avgCost": 47,
+    "other": null,
+    "recommend": "Y",
+    "distance": 1260,
+    "saleNum3hour": 22,
+    "deliveryFee": 3,
+    "status": "1"
+  }
+}

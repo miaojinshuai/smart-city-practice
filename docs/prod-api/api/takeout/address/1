@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "userId": 2,
+    "name": "王大卫",
+    "phone": "15898135271",
+    "addressDetail": "大连理工大学教学楼 A3-118",
+    "houseNumber": "",
+    "label": "学校",
+    "isDefault": "Y",
+    "longitude": "121.614682",
+    "latitude": "38.914003"
+  }
+}

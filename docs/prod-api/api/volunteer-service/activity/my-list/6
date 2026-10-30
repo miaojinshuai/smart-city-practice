@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 6,
+    "title": "马拉松赛事志愿服务",
+    "imgUrl": "img/activity1.jpg",
+    "undertaker": "市文明办",
+    "startAt": "2026-11-09",
+    "endAt": "2026-11-09 17:00",
+    "requireText": "18-45 周岁，身体健康，有责任心",
+    "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+    "state": "1",
+    "signupNum": 42,
+    "limitNum": 50,
+    "address": "大连市图书馆"
+  }
+}

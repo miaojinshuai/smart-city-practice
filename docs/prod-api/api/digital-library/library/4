@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "人工智能简史",
+    "author": "吴军",
+    "cover": "img/library2.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "商务印书馆",
+    "publishDate": "2021-05-01",
+    "category": "管理",
+    "score": 8.4,
+    "readNum": 452,
+    "commentNum": 7,
+    "isbn": "978-7-100-12004",
+    "location": "市图书馆 2 楼 14 排"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "phonenumber": "13800000000",
+      "balance": 20,
+      "operator": "中国移动",
+      "userId": 2
+    }
+  ],
+  "total": 1
+}

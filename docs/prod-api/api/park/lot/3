@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "parkName": "高新万达地面停车场",
+    "vacancy": "86",
+    "priceCaps": "15",
+    "imgUrl": "img/park3.jpg",
+    "rates": "4.5",
+    "address": "大连市甘井子区高新街 12 号",
+    "distance": "800",
+    "allPark": "200",
+    "open": "Y",
+    "lotType": "地下"
+  }
+}

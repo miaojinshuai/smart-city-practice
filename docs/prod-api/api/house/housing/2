@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "sourceName": "星海广场海景两居 精装修 拎包入住",
+    "address": "星海广场海景两居 精装修 拎包入住",
+    "areaSize": 96,
+    "tel": "18546474542",
+    "price": "4200/月",
+    "houseType": "租房",
+    "pic": "img/house1.jpg",
+    "description": "房屋采光良好，周边配套齐全，交通便利，临近地铁与商圈。小区绿化率高，物业 24 小时安保。",
+    "district": "中山区",
+    "floor": "高楼层/32 层",
+    "orientation": "东南"
+  }
+}

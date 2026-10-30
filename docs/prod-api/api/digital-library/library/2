@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "name": "数字治理：从理念到实践",
+    "author": "张维迎",
+    "cover": "img/library3.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "中信出版社",
+    "publishDate": "2020-09-01",
+    "category": "计算机",
+    "score": 8.2,
+    "readNum": 276,
+    "commentNum": 5,
+    "isbn": "978-7-100-12002",
+    "location": "市图书馆 3 楼 12 排"
+  }
+}

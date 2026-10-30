@@ -1,0 +1,103 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "sellerId": 2,
+      "sellerName": "皖北刘哥牛肉板面",
+      "userId": 2,
+      "userName": "test02",
+      "score": 5,
+      "content": "真好吃，下次还来",
+      "commentDate": "2026-10-19 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food7.jpg"
+    },
+    {
+      "id": 2,
+      "sellerId": 3,
+      "sellerName": "炸匠先森·韩式炸鸡",
+      "userId": 2,
+      "userName": "小明",
+      "score": 4,
+      "content": "分量足，出餐快",
+      "commentDate": "2026-10-18 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food1.jpg"
+    },
+    {
+      "id": 3,
+      "sellerId": 4,
+      "sellerName": "柚见初夏奶茶",
+      "userId": 2,
+      "userName": "吃货一号",
+      "score": 5,
+      "content": "味道不错，就是有点咸",
+      "commentDate": "2026-10-17 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food2.jpg"
+    },
+    {
+      "id": 4,
+      "sellerId": 5,
+      "sellerName": "老碗面·手工拉面",
+      "userId": 2,
+      "userName": "test02",
+      "score": 4,
+      "content": "配送小哥很准时",
+      "commentDate": "2026-10-16 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food3.jpg"
+    },
+    {
+      "id": 5,
+      "sellerId": 6,
+      "sellerName": "川蜀冒菜小馆",
+      "userId": 2,
+      "userName": "小明",
+      "score": 5,
+      "content": "真好吃，下次还来",
+      "commentDate": "2026-10-15 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food4.jpg"
+    },
+    {
+      "id": 6,
+      "sellerId": 1,
+      "sellerName": "麦香烘焙工坊",
+      "userId": 2,
+      "userName": "吃货一号",
+      "score": 4,
+      "content": "分量足，出餐快",
+      "commentDate": "2026-10-14 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food6.jpg"
+    },
+    {
+      "id": 7,
+      "sellerId": 2,
+      "sellerName": "轻食日记沙拉",
+      "userId": 2,
+      "userName": "test02",
+      "score": 5,
+      "content": "味道不错，就是有点咸",
+      "commentDate": "2026-10-13 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food7.jpg"
+    },
+    {
+      "id": 8,
+      "sellerId": 3,
+      "sellerName": "湘遇小炒",
+      "userId": 2,
+      "userName": "小明",
+      "score": 4,
+      "content": "配送小哥很准时",
+      "commentDate": "2026-10-12 10:30:00",
+      "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E7%94%A8%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "imgUrl": "img/food1.jpg"
+    }
+  ],
+  "total": 8
+}

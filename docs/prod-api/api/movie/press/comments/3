@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "appType": "smart_city",
+    "newsId": 1,
+    "content": "数据很详实，点赞。",
+    "commentDate": "2026-10-18 17:30:25",
+    "userId": 2,
+    "likeNum": 9,
+    "userName": "李四",
+    "newsTitle": "全市新增 3200 个公共停车泊位，重点缓解老城区停车难"
+  }
+}

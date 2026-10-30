@@ -1,0 +1,111 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "lineId": 2,
+      "lineName": "2 号线",
+      "start": "西苑",
+      "stop": "安河桥北",
+      "price": 4,
+      "onTime": "2026-10-20 20:02:02",
+      "offTime": "2026-10-20 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 2,
+      "lineId": 3,
+      "lineName": "3 号线",
+      "start": "北宫门",
+      "stop": "海淀黄庄",
+      "price": 5,
+      "onTime": "2026-10-19 20:02:02",
+      "offTime": "2026-10-19 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 3,
+      "lineId": 4,
+      "lineName": "4 号线",
+      "start": "安河桥北",
+      "stop": "人民大学",
+      "price": 6,
+      "onTime": "2026-10-18 20:02:02",
+      "offTime": "2026-10-18 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 4,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "start": "海淀黄庄",
+      "stop": "魏公村",
+      "price": 3,
+      "onTime": "2026-10-17 20:02:02",
+      "offTime": "2026-10-17 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 5,
+      "lineId": 2,
+      "lineName": "2 号线",
+      "start": "人民大学",
+      "stop": "国家图书馆",
+      "price": 4,
+      "onTime": "2026-10-16 20:02:02",
+      "offTime": "2026-10-16 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 6,
+      "lineId": 3,
+      "lineName": "3 号线",
+      "start": "魏公村",
+      "stop": "动物园",
+      "price": 5,
+      "onTime": "2026-10-15 20:02:02",
+      "offTime": "2026-10-15 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 7,
+      "lineId": 4,
+      "lineName": "4 号线",
+      "start": "国家图书馆",
+      "stop": "西直门",
+      "price": 6,
+      "onTime": "2026-10-14 20:02:02",
+      "offTime": "2026-10-14 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    },
+    {
+      "id": 8,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "start": "动物园",
+      "stop": "积水潭",
+      "price": 3,
+      "onTime": "2026-10-13 20:02:02",
+      "offTime": "2026-10-13 20:05:23",
+      "userId": 2,
+      "userName": "test02",
+      "cardNum": "202104271015382371"
+    }
+  ],
+  "total": 8
+}

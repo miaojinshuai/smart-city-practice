@@ -1,0 +1,157 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "北宫门",
+      "sort": 1,
+      "stationId": 1,
+      "nextStation": "安河桥北",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "安河桥北",
+      "sort": 2,
+      "stationId": 2,
+      "nextStation": "海淀黄庄",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "海淀黄庄",
+      "sort": 3,
+      "stationId": 3,
+      "nextStation": "人民大学",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "人民大学",
+      "sort": 4,
+      "stationId": 4,
+      "nextStation": "魏公村",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "魏公村",
+      "sort": 5,
+      "stationId": 5,
+      "nextStation": "国家图书馆",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "国家图书馆",
+      "sort": 6,
+      "stationId": 6,
+      "nextStation": "动物园",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "动物园",
+      "sort": 7,
+      "stationId": 7,
+      "nextStation": "西直门",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "西直门",
+      "sort": 8,
+      "stationId": 8,
+      "nextStation": "积水潭",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "积水潭",
+      "sort": 9,
+      "stationId": 9,
+      "nextStation": "鼓楼大街",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "lineId": 1,
+      "lineName": "1 号线",
+      "name": "鼓楼大街",
+      "sort": 10,
+      "stationId": 10,
+      "nextStation": "安定门",
+      "lines": [
+        {
+          "lineId": 1,
+          "lineName": "1 号线"
+        }
+      ]
+    }
+  ],
+  "total": 18
+}

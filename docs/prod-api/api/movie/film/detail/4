@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 4,
+    "name": "长津湖",
+    "category": "7",
+    "categoryName": "战争",
+    "cover": "img/movie7.jpg",
+    "playType": "3",
+    "playTypeName": "2D",
+    "score": 7.4,
+    "duration": 112,
+    "playDate": "2026-10-21",
+    "likeNum": 18284,
+    "favoriteNum": 29156,
+    "language": "中文",
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>",
+    "other": null,
+    "recommend": "Y",
+    "director": "陈凯歌",
+    "actors": "黄渤 / 周迅"
+  }
+}

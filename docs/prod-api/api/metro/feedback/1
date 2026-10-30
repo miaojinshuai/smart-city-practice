@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "appType": "smart_city",
+    "title": "问题反馈",
+    "content": "首页轮播图点击后没有跳转到对应详情页，希望修复。",
+    "userId": 2,
+    "createTime": "2026-10-19 10:30:00"
+  }
+}

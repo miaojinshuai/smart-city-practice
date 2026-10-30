@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "carId": 3,
+    "plateNo": "辽B66666",
+    "illegalType": "违反禁止标线指示",
+    "illegalTime": "2026-10-19 08:12:33",
+    "illegalAddress": "大连市西安路 200 米处",
+    "money": 100,
+    "deductPoints": 3,
+    "status": "未处理",
+    "code": "2102100002",
+    "handleType": "待处理",
+    "userId": 2,
+    "imgUrl": "img/traffic2.jpg"
+  }
+}

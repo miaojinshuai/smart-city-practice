@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "orderNo": "1603537663212",
+    "patientName": "张亮",
+    "categoryId": 3,
+    "categoryName": "神经内科",
+    "type": "1",
+    "money": 8,
+    "reserveTime": "2026-11-04 09:00",
+    "status": "待就诊",
+    "hospitalId": 3,
+    "hospitalName": "大连医科大学附属第一医院",
+    "createTime": "2026-10-18 10:30:00",
+    "userId": 2
+  }
+}

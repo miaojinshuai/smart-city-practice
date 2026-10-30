@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "roomId": 1,
+    "row": "1",
+    "col": "2",
+    "type": "VIP",
+    "status": "Y"
+  }
+}

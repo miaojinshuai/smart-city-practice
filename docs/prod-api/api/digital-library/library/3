@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "name": "智慧交通系统导论",
+    "author": "李德毅",
+    "cover": "img/library1.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "机械工业出版社",
+    "publishDate": "2022-03-01",
+    "category": "文学",
+    "score": 8.3,
+    "readNum": 364,
+    "commentNum": 6,
+    "isbn": "978-7-100-12003",
+    "location": "市图书馆 1 楼 13 排"
+  }
+}

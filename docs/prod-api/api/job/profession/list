@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "professionName": "Java 开发工程师",
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "professionName": "前端开发工程师",
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "professionName": "UI 设计师",
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "professionName": "产品经理",
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "professionName": "测试工程师",
+      "sort": 5
+    },
+    {
+      "id": 6,
+      "professionName": "数据分析师",
+      "sort": 6
+    },
+    {
+      "id": 7,
+      "professionName": "运维工程师",
+      "sort": 7
+    },
+    {
+      "id": 8,
+      "professionName": "Android 开发",
+      "sort": 8
+    }
+  ],
+  "total": 8
+}

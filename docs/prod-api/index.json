@@ -1,0 +1,1048 @@
+{
+  "note": "GET 接口按原路径可直接请求；POST/PUT/DELETE 在静态托管下不可用，请用站点内的「在线调试」。",
+  "base": "https://miaojinshuai.github.io/smart-city-practice",
+  "count": 213,
+  "apis": [
+    {
+      "url": "/prod-api/api/park/car/consumption",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/park/car/my",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/park/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/park/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/park/lot/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/park/lot/record/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/park/lot/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/park/press/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/park/press/comments/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/park/press/comments/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/park/press/press/list",
+      "kind": "list",
+      "total": 24
+    },
+    {
+      "url": "/prod-api/api/park/press/press/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/park/product/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/park/recharge/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/park/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/park/score/level/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/park/score/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/park/score/notice/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/park/score/top/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/kitchen-helper/dishes-collection/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/kitchen-helper/dishes/hot-keywords",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/kitchen-helper/dishes/list",
+      "kind": "list",
+      "total": 20
+    },
+    {
+      "url": "/prod-api/api/kitchen-helper/dishes/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/garbage-classification/hot/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/garbage-classification/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/garbage-example/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/news-comment/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/news-type/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/news/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/news/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/garbage-classification/poster/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/metro/card",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/metro/city",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/metro/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/metro/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/metro/found/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/metro/found/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/metro/line",
+      "kind": "object",
+      "mirror": "/prod-api/api/metro/line.json"
+    },
+    {
+      "url": "/prod-api/api/metro/line/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/metro/line/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/metro/list",
+      "kind": "list",
+      "total": 0
+    },
+    {
+      "url": "/prod-api/api/metro/notice/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/metro/notice/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/metro/press/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/metro/press/comments/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/metro/press/comments/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/metro/press/press/list",
+      "kind": "list",
+      "total": 24
+    },
+    {
+      "url": "/prod-api/api/metro/press/press/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/metro/record/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/metro/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/metro/statement",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/metro/step/list",
+      "kind": "list",
+      "total": 18
+    },
+    {
+      "url": "/prod-api/api/takeout/address/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/takeout/address/{id}",
+      "kind": "detail",
+      "ids": 3
+    },
+    {
+      "url": "/prod-api/api/takeout/category/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/takeout/collect/check",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/takeout/collect/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/takeout/comment/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/takeout/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/takeout/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/takeout/order/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/takeout/order/{orderNo}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/takeout/product/list",
+      "kind": "list",
+      "total": 60
+    },
+    {
+      "url": "/prod-api/api/takeout/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/takeout/search",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/takeout/seller/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/takeout/seller/near",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/takeout/seller/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/takeout/theme/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/pet-hospital/inquiry-message/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/pet-hospital/inquiry/my-list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/pet-hospital/pet-doctor/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/pet-hospital/pet-type/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/activity/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/activity/my-list/{state}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/activity/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/news/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/volunteer-service/news/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/job/company/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/job/company/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/job/deliver/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/job/post/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/job/post/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/job/profession/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/job/resume/queryResumeByUserId/{userId}",
+      "kind": "detail",
+      "ids": 1
+    },
+    {
+      "url": "/prod-api/api/house/housing/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/house/housing/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/gov-service-hotline/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/gov-service-hotline/appeal-category/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/gov-service-hotline/appeal/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/gov-service-hotline/appeal/my-list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/gov-service-hotline/appeal/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/digital-library/library-comment/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/digital-library/library/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/digital-library/library/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/traffic/car/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/traffic/checkCar/apply/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/traffic/checkCar/grt",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/traffic/checkCar/place/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/traffic/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/traffic/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/traffic/illegal/apply/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/traffic/illegal/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/traffic/illegal/notice/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/traffic/illegal/notice/{id}",
+      "kind": "detail",
+      "ids": 4
+    },
+    {
+      "url": "/prod-api/api/traffic/illegal/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/traffic/license/user",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/traffic/license/{id}",
+      "kind": "detail",
+      "ids": 1
+    },
+    {
+      "url": "/prod-api/api/traffic/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/bus/line/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/bus/line/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/bus/order/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/bus/stop/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/lawyer/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/lawyer/list-evaluate",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/lawyer/list-top10",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/lawyer/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/legal-advice/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/legal-advice/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/lawyer-consultation/legal-expertise/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/activity/activity/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/activity/activity/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/activity/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/activity/comment/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/activity/comment/number",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/activity/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/activity/signup/check",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/public-welfare/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/public-welfare/donate-record/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/public-welfare/public-welfare-activity/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/public-welfare/public-welfare-activity/recommend-list",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/public-welfare/public-welfare-type/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/logistics-inquiry/ad-banner/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/logistics-inquiry/logistics_company/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/logistics-inquiry/logistics_company/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/logistics-inquiry/logistics_complaint/my-list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/logistics-inquiry/logistics_info/{no}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/living/account/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/living/bill",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/living/category/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/living/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/living/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/living/phone",
+      "kind": "object",
+      "mirror": "/prod-api/api/living/phone.json"
+    },
+    {
+      "url": "/prod-api/api/living/phone/record/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/living/phone/rule/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/living/press/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/living/press/comments/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/living/press/comments/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/living/press/press/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/living/press/press/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/living/recharge/record/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/living/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/living/weather",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/movie/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/movie/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/movie/film/comment/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/movie/film/detail/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/film/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/movie/film/preview/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/movie/film/preview/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/press/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/movie/press/comments/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/movie/press/comments/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/press/press/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/movie/press/press/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/list4times",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/room/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/room/{id}",
+      "kind": "detail",
+      "ids": 4
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/seat/list",
+      "kind": "list",
+      "total": 96
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/seat/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/times/list",
+      "kind": "list",
+      "total": 30
+    },
+    {
+      "url": "/prod-api/api/movie/theatre/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/movie/ticket/list",
+      "kind": "list",
+      "total": 0
+    },
+    {
+      "url": "/prod-api/api/movie/ticket/order/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/movie/ticket/order/pay/{id}",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/movie/ticket/order/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/allorder/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/common/balance/list",
+      "kind": "list",
+      "total": 12
+    },
+    {
+      "url": "/prod-api/api/common/feedback/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/api/common/feedback/{id}",
+      "kind": "detail",
+      "ids": 5
+    },
+    {
+      "url": "/prod-api/api/common/gps/area",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/common/gps/city",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/common/gps/location",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/common/gps/province",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/common/user/getInfo",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/common/weather",
+      "kind": "object",
+      "mirror": "/prod-api/api/common/weather.json"
+    },
+    {
+      "url": "/prod-api/api/common/weather/today",
+      "kind": "object"
+    },
+    {
+      "url": "/prod-api/api/rotation/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/service/list",
+      "kind": "list",
+      "total": 20
+    },
+    {
+      "url": "/prod-api/press/category/list",
+      "kind": "list",
+      "total": 5
+    },
+    {
+      "url": "/prod-api/press/comments/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/press/comments/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/press/press/list",
+      "kind": "list",
+      "total": 24
+    },
+    {
+      "url": "/prod-api/press/press/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/system/dict/data/type/{dictType}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/hospital/banner/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/hospital/category/list",
+      "kind": "list",
+      "total": 10
+    },
+    {
+      "url": "/prod-api/api/hospital/hospital/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/hospital/hospital/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/hospital/patient/list",
+      "kind": "list",
+      "total": 3
+    },
+    {
+      "url": "/prod-api/api/hospital/reservation/list",
+      "kind": "list",
+      "total": 4
+    },
+    {
+      "url": "/prod-api/api/hospital/reservation/{id}",
+      "kind": "detail",
+      "ids": 4
+    },
+    {
+      "url": "/prod-api/api/youth-inn/talent-policy-area/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/youth-inn/talent-policy-area/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/youth-inn/talent-policy/list",
+      "kind": "list",
+      "total": 8
+    },
+    {
+      "url": "/prod-api/api/youth-inn/talent-policy/{id}",
+      "kind": "detail",
+      "ids": 6
+    },
+    {
+      "url": "/prod-api/api/youth-inn/youth-inn/list",
+      "kind": "list",
+      "total": 6
+    },
+    {
+      "url": "/prod-api/api/youth-inn/youth-inn/{id}",
+      "kind": "detail",
+      "ids": 6
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "name": "申通物流",
+    "sort": 1,
+    "imgUrl": "img/logistics2.jpg",
+    "introduce": "公司成立于 1993 年，致力于民族品牌的建设和发展，不断完善终端网络、中转运输网络和信息网络。",
+    "shippingMethod": "陆运/空运",
+    "phone": "18842424241",
+    "website": "https://www.example.com"
+  }
+}

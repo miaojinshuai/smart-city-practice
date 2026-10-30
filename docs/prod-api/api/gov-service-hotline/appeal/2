@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "userId": 2,
+    "appealCategoryId": 3,
+    "appealCategoryName": "市政设施",
+    "title": "小区门口路灯损坏",
+    "content": "小区门口路灯已经损坏两周，夜间出行不安全。",
+    "undertaker": "城管局",
+    "state": "3",
+    "stateName": "办理中",
+    "createTime": "2026-10-19 15:38:50",
+    "detailResult": "已转交相关部门核实处理，处理结果将第一时间反馈。",
+    "imgUrl": "img/news1.jpg"
+  }
+}

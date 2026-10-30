@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "imgUrl": "img/news2.jpg",
+    "foundTime": "2026-09-09",
+    "foundPlace": "5 号线雍和宫站 3 号车厢",
+    "title": "苹果手机",
+    "content": "请失主携带有效身份证件到车站客服中心认领，或拨打服务热线 96165。",
+    "status": "1",
+    "userId": 2,
+    "foundUserName": "张同学"
+  }
+}

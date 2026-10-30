@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "悬崖之上",
+      "cover": "img/movie4.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 2,
+      "name": "变形金刚：超能勇士崛起",
+      "cover": "img/movie5.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 3,
+      "name": "你好，李焕英",
+      "cover": "img/movie6.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 4,
+      "name": "长津湖",
+      "cover": "img/movie7.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 5,
+      "name": "爱情神话",
+      "cover": "img/movie1.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 6,
+      "name": "误杀 2",
+      "cover": "img/movie2.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 7,
+      "name": "我和我的祖国",
+      "cover": "img/movie3.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 8,
+      "name": "寂静之地",
+      "cover": "img/movie4.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 9,
+      "name": "流浪地球 2",
+      "cover": "img/movie5.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    },
+    {
+      "id": 10,
+      "name": "满江红",
+      "cover": "img/movie7.jpg",
+      "video": "",
+      "duration": 120,
+      "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+    }
+  ],
+  "total": 10
+}

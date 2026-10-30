@@ -1,0 +1,85 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "星海青年驿站",
+      "imgUrl": "img/youth3.jpg",
+      "address": "大连市沙河口区星海广场 A 区",
+      "price": 0,
+      "tel": "0411-88881",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "四人间",
+      "bedNum": 25,
+      "freeDays": 7,
+      "score": 4.5
+    },
+    {
+      "id": 2,
+      "name": "高新青年驿站",
+      "imgUrl": "img/youth1.jpg",
+      "address": "大连市高新园区软件园路 1 号",
+      "price": 0,
+      "tel": "0411-88882",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "六人间",
+      "bedNum": 30,
+      "freeDays": 7,
+      "score": 4.5
+    },
+    {
+      "id": 3,
+      "name": "中山青年驿站",
+      "imgUrl": "img/youth2.jpg",
+      "address": "大连市沙河口区星海广场 A 区",
+      "price": 0,
+      "tel": "0411-88883",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "双人间",
+      "bedNum": 35,
+      "freeDays": 7,
+      "score": 4.5
+    },
+    {
+      "id": 4,
+      "name": "金普青年驿站",
+      "imgUrl": "img/youth3.jpg",
+      "address": "大连市高新园区软件园路 1 号",
+      "price": 0,
+      "tel": "0411-88884",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "四人间",
+      "bedNum": 40,
+      "freeDays": 7,
+      "score": 4.5
+    },
+    {
+      "id": 5,
+      "name": "星海青年驿站",
+      "imgUrl": "img/youth1.jpg",
+      "address": "大连市沙河口区星海广场 A 区",
+      "price": 0,
+      "tel": "0411-88885",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "六人间",
+      "bedNum": 45,
+      "freeDays": 7,
+      "score": 4.5
+    },
+    {
+      "id": 6,
+      "name": "高新青年驿站",
+      "imgUrl": "img/youth2.jpg",
+      "address": "大连市高新园区软件园路 1 号",
+      "price": 0,
+      "tel": "0411-88886",
+      "introduce": "为来连求职的青年人才提供 7 天免费住宿，配套共享办公、就业指导等服务。",
+      "roomType": "双人间",
+      "bedNum": 50,
+      "freeDays": 7,
+      "score": 4.5
+    }
+  ],
+  "total": 6
+}

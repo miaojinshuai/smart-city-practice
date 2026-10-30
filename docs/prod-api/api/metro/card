@@ -1,0 +1,29 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "userName": "王大卫",
+      "idCard": "210211199909090014",
+      "phonenumber": "13800000000",
+      "cardNum": "202104271015382371",
+      "userId": 2,
+      "balance": 70,
+      "status": "1",
+      "createTime": "2026-10-12 10:30:00"
+    },
+    {
+      "id": 2,
+      "userName": "王大卫",
+      "idCard": "210211199909090014",
+      "phonenumber": "13800000000",
+      "cardNum": "202104271015382372",
+      "userId": 2,
+      "balance": 90,
+      "status": "1",
+      "createTime": "2026-10-12 10:30:00"
+    }
+  ],
+  "total": 2
+}

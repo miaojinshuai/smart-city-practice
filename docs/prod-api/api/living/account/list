@@ -1,0 +1,37 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "ownerName": "王大卫",
+      "idCard": "210211199909090014",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15666081",
+      "categoryId": 2,
+      "userId": 2,
+      "categoryName": "电费"
+    },
+    {
+      "id": 2,
+      "ownerName": "王大卫",
+      "idCard": "210211199909090014",
+      "address": "大连市沙河口区西安路 99 号",
+      "paymentNo": "15666082",
+      "categoryId": 3,
+      "userId": 2,
+      "categoryName": "水费"
+    },
+    {
+      "id": 3,
+      "ownerName": "王大卫",
+      "idCard": "210211199909090014",
+      "address": "大连高新园区大华锦绣 3 号楼 2 单元 2803",
+      "paymentNo": "15666083",
+      "categoryId": 4,
+      "userId": 2,
+      "categoryName": "燃气费"
+    }
+  ],
+  "total": 3
+}

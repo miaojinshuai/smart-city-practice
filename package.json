@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.mjs",
     "build:static": "node build-static.mjs",
+    "build:api": "node build-api-mirror.mjs",
+    "build": "npm run build:static && npm run build:api",
     "preview:static": "npx --yes serve docs -l 8080"
   }
 }

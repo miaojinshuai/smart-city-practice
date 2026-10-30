@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "name": "5 号线",
+    "first": "西苑",
+    "end": "北安河",
+    "startTime": "05:25",
+    "endTime": "23:00",
+    "cityId": 5,
+    "stationsNumber": 23,
+    "km": 35,
+    "runStationsName": "西苑,北宫门,安河桥北,海淀黄庄,人民大学",
+    "price": 4,
+    "color": "#7d4bd8"
+  }
+}

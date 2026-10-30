@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "appType": "metro",
+    "title": "功能异常",
+    "content": "地铁乘车码在弱网环境下加载较慢。",
+    "userId": 2,
+    "createTime": "2026-10-17 10:30:00"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "name": "川蜀冒菜小馆",
+    "address": "辽宁省大连市沙河口区西安路 99 号",
+    "introduction": "麻辣鲜香",
+    "themeId": 6,
+    "score": 4.5,
+    "saleQuantity": 485,
+    "deliveryTime": 20,
+    "imgUrl": "img/seller3.jpg",
+    "avgCost": 55,
+    "other": null,
+    "recommend": "N",
+    "distance": 1500,
+    "saleNum3hour": 25,
+    "deliveryFee": 3,
+    "status": "1"
+  }
+}

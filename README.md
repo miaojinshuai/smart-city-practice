@@ -27,7 +27,8 @@ node build-static.mjs     # 产物在 docs/
 
 静态版会自动探测环境：没有 Node 服务时启用内置的 `static-mock.js`，
 把 `/prod-api/*` 请求交给 `docs/static-api/` 里的预生成 JSON。
-接口文档、在线调试、参考实现照常可用。详见 **[GH_PAGES.md](./GH_PAGES.md)**。
+接口文档、在线调试、参考实现照常可用；所有 GET 接口还按原路径落成了静态文件，
+可以直接用 Postman 请求（见 **[GH_PAGES.md](./GH_PAGES.md)**）。
 
 > 需要 Node.js 18+（无任何第三方依赖，无需 npm install）。
 

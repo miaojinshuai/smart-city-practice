@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "userId": 2,
+    "appealCategoryId": 4,
+    "appealCategoryName": "环境保护",
+    "title": "夜间施工噪音扰民",
+    "content": "附近工地夜间施工，噪音严重影响休息。",
+    "undertaker": "生态环境局",
+    "state": "1",
+    "stateName": "已办结",
+    "createTime": "2026-10-18 15:38:50",
+    "detailResult": "已转交相关部门核实处理，处理结果将第一时间反馈。",
+    "imgUrl": "img/news2.jpg"
+  }
+}

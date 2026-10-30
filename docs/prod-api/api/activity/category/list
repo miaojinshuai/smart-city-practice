@@ -1,0 +1,37 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "name": "跑步",
+      "imgUrl": "img/activity3.jpg",
+      "sort": 1
+    },
+    {
+      "id": 2,
+      "name": "公益",
+      "imgUrl": "img/activity1.jpg",
+      "sort": 2
+    },
+    {
+      "id": 3,
+      "name": "亲子",
+      "imgUrl": "img/activity2.jpg",
+      "sort": 3
+    },
+    {
+      "id": 4,
+      "name": "讲座",
+      "imgUrl": "img/activity3.jpg",
+      "sort": 4
+    },
+    {
+      "id": 5,
+      "name": "运动",
+      "imgUrl": "img/activity1.jpg",
+      "sort": 5
+    }
+  ],
+  "total": 5
+}

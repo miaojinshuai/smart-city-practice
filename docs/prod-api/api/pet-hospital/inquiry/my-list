@@ -1,0 +1,99 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "doctorId": 10,
+      "doctorName": "王医生",
+      "doctor": {
+        "id": 10,
+        "name": "王医生",
+        "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E5%AE%A0%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "jobName": "主任医师",
+        "workingYears": 9,
+        "goodAt": "小动物内科与皮肤科",
+        "hospital": "大连市宠物医院"
+      },
+      "userId": 2,
+      "petTypeId": 10,
+      "petTypeName": "小猫咪",
+      "question": "我们家小猫一年没睡觉了，怎么办？",
+      "imageUrls": "img/pet3.jpg",
+      "createTime": "2026-10-20 09:30:00",
+      "state": "1",
+      "stateName": "待回复",
+      "replyContent": "建议先观察饮食与排泄情况，必要时到院做血常规检查。"
+    },
+    {
+      "id": 2,
+      "doctorId": 11,
+      "doctorName": "李医生",
+      "doctor": {
+        "id": 11,
+        "name": "李医生",
+        "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E5%AE%A0%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "jobName": "主任医师",
+        "workingYears": 10,
+        "goodAt": "小动物内科与皮肤科",
+        "hospital": "大连市宠物医院"
+      },
+      "userId": 2,
+      "petTypeId": 11,
+      "petTypeName": "小狗",
+      "question": "狗狗最近食欲不振，精神也不好。",
+      "imageUrls": "img/pet1.jpg",
+      "createTime": "2026-10-19 09:30:00",
+      "state": "1",
+      "stateName": "已回复",
+      "replyContent": "建议先观察饮食与排泄情况，必要时到院做血常规检查。"
+    },
+    {
+      "id": 3,
+      "doctorId": 12,
+      "doctorName": "王医生",
+      "doctor": {
+        "id": 12,
+        "name": "王医生",
+        "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E5%AE%A0%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "jobName": "主任医师",
+        "workingYears": 11,
+        "goodAt": "小动物内科与皮肤科",
+        "hospital": "大连市宠物医院"
+      },
+      "userId": 2,
+      "petTypeId": 12,
+      "petTypeName": "小猫咪",
+      "question": "猫咪身上起了红点，是什么原因？",
+      "imageUrls": "img/pet2.jpg",
+      "createTime": "2026-10-18 09:30:00",
+      "state": "1",
+      "stateName": "已结束",
+      "replyContent": "建议先观察饮食与排泄情况，必要时到院做血常规检查。"
+    },
+    {
+      "id": 4,
+      "doctorId": 13,
+      "doctorName": "李医生",
+      "doctor": {
+        "id": 13,
+        "name": "李医生",
+        "avatar": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22160%22%20height%3D%22160%22%20viewBox%3D%220%200%20160%20160%22%3E%20%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22hsl(340%2C70%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22hsl(364%2C65%25%2C38%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2280%22%20fill%3D%22url(%23a)%22%2F%3E%20%3Ctext%20x%3D%2280%22%20y%3D%22104%22%20font-family%3D%22PingFang%20SC%2CMicrosoft%20YaHei%2Csans-serif%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-weight%3D%22600%22%3E%E5%AE%A0%3C%2Ftext%3E%3C%2Fsvg%3E",
+        "jobName": "主任医师",
+        "workingYears": 12,
+        "goodAt": "小动物内科与皮肤科",
+        "hospital": "大连市宠物医院"
+      },
+      "userId": 2,
+      "petTypeId": 13,
+      "petTypeName": "小狗",
+      "question": "我们家小猫一年没睡觉了，怎么办？",
+      "imageUrls": "img/pet3.jpg",
+      "createTime": "2026-10-17 09:30:00",
+      "state": "1",
+      "stateName": "待回复",
+      "replyContent": "建议先观察饮食与排泄情况，必要时到院做血常规检查。"
+    }
+  ],
+  "total": 4
+}

@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "imgUrl": "img/hospital3.jpg",
+      "hospitalId": 2
+    },
+    {
+      "id": 2,
+      "imgUrl": "img/hospital1.jpg",
+      "hospitalId": 3
+    },
+    {
+      "id": 3,
+      "imgUrl": "img/hospital2.jpg",
+      "hospitalId": 1
+    },
+    {
+      "id": 4,
+      "imgUrl": "img/hospital3.jpg",
+      "hospitalId": 2
+    }
+  ],
+  "total": 4
+}

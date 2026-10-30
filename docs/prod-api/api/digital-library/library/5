@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 5,
+    "name": "中国古典文学导读",
+    "author": "叶嘉莹",
+    "cover": "img/library3.jpg",
+    "introduction": "本书系统梳理了相关领域的理论与实践，适合作为高校教材及行业从业者的参考读物。",
+    "publisher": "中信出版社",
+    "publishDate": "2020-09-01",
+    "category": "城市规划",
+    "score": 8.5,
+    "readNum": 540,
+    "commentNum": 8,
+    "isbn": "978-7-100-12005",
+    "location": "市图书馆 3 楼 15 排"
+  }
+}

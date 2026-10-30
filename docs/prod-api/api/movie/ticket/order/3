@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 3,
+    "orderNo": "2026100900095356433",
+    "theaterId": 4,
+    "theaterName": "金逸影城",
+    "roomId": 1,
+    "roomName": "1 厅",
+    "timesId": 4,
+    "movieId": 4,
+    "movieName": "长津湖",
+    "price": 60,
+    "num": 2,
+    "status": "已支付",
+    "userId": 2,
+    "createTime": "2026-10-18 15:20:00",
+    "playDate": "2026-10-25",
+    "startTime": "19:30",
+    "seatInfo": "5 排 6 座,5 排 7 座"
+  }
+}

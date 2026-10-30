@@ -1,0 +1,91 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "title": "城市清洁志愿行动",
+      "imgUrl": "img/activity2.jpg",
+      "undertaker": "市青年志愿者协会",
+      "startAt": "2026-11-04",
+      "endAt": "2026-11-04 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 17,
+      "limitNum": 50,
+      "address": "大连市星海广场"
+    },
+    {
+      "id": 2,
+      "title": "敬老院陪伴计划",
+      "imgUrl": "img/activity3.jpg",
+      "undertaker": "新华城市",
+      "startAt": "2026-11-05",
+      "endAt": "2026-11-05 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 22,
+      "limitNum": 50,
+      "address": "大连市劳动公园"
+    },
+    {
+      "id": 3,
+      "title": "社区图书整理志愿服务",
+      "imgUrl": "img/activity1.jpg",
+      "undertaker": "市文明办",
+      "startAt": "2026-11-06",
+      "endAt": "2026-11-06 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 27,
+      "limitNum": 50,
+      "address": "大连市图书馆"
+    },
+    {
+      "id": 4,
+      "title": "交通文明劝导",
+      "imgUrl": "img/activity2.jpg",
+      "undertaker": "市青年志愿者协会",
+      "startAt": "2026-11-07",
+      "endAt": "2026-11-07 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 32,
+      "limitNum": 50,
+      "address": "大连市星海广场"
+    },
+    {
+      "id": 5,
+      "title": "青少年科普志愿课堂",
+      "imgUrl": "img/activity3.jpg",
+      "undertaker": "新华城市",
+      "startAt": "2026-11-08",
+      "endAt": "2026-11-08 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 37,
+      "limitNum": 50,
+      "address": "大连市劳动公园"
+    },
+    {
+      "id": 6,
+      "title": "马拉松赛事志愿服务",
+      "imgUrl": "img/activity1.jpg",
+      "undertaker": "市文明办",
+      "startAt": "2026-11-09",
+      "endAt": "2026-11-09 17:00",
+      "requireText": "18-45 周岁，身体健康，有责任心",
+      "detail": "为弘扬奉献、友爱、互助、进步的志愿精神，现面向社会招募志愿者。服务内容包括现场引导、秩序维护、物资分发等。",
+      "state": "1",
+      "signupNum": 42,
+      "limitNum": 50,
+      "address": "大连市图书馆"
+    }
+  ],
+  "total": 6
+}

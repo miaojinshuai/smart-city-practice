@@ -1,0 +1,12 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 1,
+    "name": "悬崖之上",
+    "cover": "img/movie4.jpg",
+    "video": "",
+    "duration": 120,
+    "introduction": "<p>影片讲述了一段发生在特殊年代的故事，主人公在困境中坚守信念，最终迎来曙光。</p>"
+  }
+}

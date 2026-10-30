@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "id": 2,
+    "name": "2 号线",
+    "first": "苹果园",
+    "end": "环球度假区",
+    "startTime": "05:25",
+    "endTime": "23:00",
+    "cityId": 5,
+    "stationsNumber": 20,
+    "km": 26,
+    "runStationsName": "西苑,北宫门,安河桥北,海淀黄庄,人民大学",
+    "price": 5,
+    "color": "#e4393c"
+  }
+}

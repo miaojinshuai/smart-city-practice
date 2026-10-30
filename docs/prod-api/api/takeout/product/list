@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "msg": "查询成功",
+  "rows": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "柚见初夏套餐",
+      "price": 19,
+      "imgUrl": "img/food6.jpg",
+      "saleQuantity": 47,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 1,
+      "status": "1",
+      "praiseRate": 91
+    },
+    {
+      "id": 2,
+      "sellerId": 1,
+      "name": "牛肉板面（大碗） 大份",
+      "price": 26,
+      "imgUrl": "img/food7.jpg",
+      "saleQuantity": 64,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 2,
+      "status": "1",
+      "praiseRate": 92
+    },
+    {
+      "id": 3,
+      "sellerId": 1,
+      "name": "韩式炸鸡（半只） 套餐",
+      "price": 33,
+      "imgUrl": "img/food1.jpg",
+      "saleQuantity": 81,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 3,
+      "status": "1",
+      "praiseRate": 93
+    },
+    {
+      "id": 4,
+      "sellerId": 1,
+      "name": "麻辣冒菜套餐 加料",
+      "price": 40,
+      "imgUrl": "img/food2.jpg",
+      "saleQuantity": 98,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 1,
+      "status": "1",
+      "praiseRate": 94
+    },
+    {
+      "id": 5,
+      "sellerId": 1,
+      "name": "手工拉面 单人餐",
+      "price": 47,
+      "imgUrl": "img/food3.jpg",
+      "saleQuantity": 115,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 2,
+      "status": "1",
+      "praiseRate": 95
+    },
+    {
+      "id": 6,
+      "sellerId": 2,
+      "name": "芝士葡萄",
+      "price": 14,
+      "imgUrl": "img/food4.jpg",
+      "saleQuantity": 132,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 1,
+      "status": "1",
+      "praiseRate": 96
+    },
+    {
+      "id": 7,
+      "sellerId": 2,
+      "name": "照烧鸡腿饭 大份",
+      "price": 21,
+      "imgUrl": "img/food6.jpg",
+      "saleQuantity": 149,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 2,
+      "status": "1",
+      "praiseRate": 97
+    },
+    {
+      "id": 8,
+      "sellerId": 2,
+      "name": "鲜虾云吞面 套餐",
+      "price": 28,
+      "imgUrl": "img/food7.jpg",
+      "saleQuantity": 166,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 3,
+      "status": "1",
+      "praiseRate": 98
+    },
+    {
+      "id": 9,
+      "sellerId": 2,
+      "name": "轻食鸡胸沙拉 加料",
+      "price": 35,
+      "imgUrl": "img/food1.jpg",
+      "saleQuantity": 183,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 1,
+      "status": "1",
+      "praiseRate": 99
+    },
+    {
+      "id": 10,
+      "sellerId": 2,
+      "name": "红糖糍粑 单人餐",
+      "price": 42,
+      "imgUrl": "img/food1.jpg",
+      "saleQuantity": 200,
+      "introduction": "选用新鲜食材，现点现做，口感更佳。",
+      "categoryId": 2,
+      "status": "1",
+      "praiseRate": 90
+    }
+  ],
+  "total": 60
+}

@@ -2,6 +2,9 @@ name = "smart-city-mock"
 main = "worker/index.mjs"
 compatibility_date = "2026-10-01"
 
+# 关闭 workers.dev，只保留自定义域名
+workers_dev = false
+
 # 自定义域名（Cloudflare 账号内已绑定的 zone）
 routes = [
   { pattern = "qixingba.dpdns.org", custom_domain = true }

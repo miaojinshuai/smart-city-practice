@@ -19,7 +19,15 @@ node server.mjs
 
 打开 <http://localhost:10091>，Windows 下可直接双击 `启动.bat`。
 
-**② 纯静态版（GitHub Pages / 任意静态托管）**
+**② Cloudflare Worker 版（支持 POST/PUT/DELETE）**
+
+```bash
+npx wrangler deploy        # 需 CLOUDFLARE_API_TOKEN，或先 wrangler login
+```
+
+305 个接口全方法可用，数据与本地 Mock 一致（写操作是实例内存态）。详见 **[worker/README.md](./worker/README.md)**。
+
+**③ 纯静态版（GitHub Pages / 任意静态托管）**
 
 ```bash
 node build-static.mjs     # 产物在 docs/
@@ -30,7 +38,7 @@ node build-static.mjs     # 产物在 docs/
 接口文档、在线调试、参考实现照常可用；所有 GET 接口还按原路径落成了静态文件，
 可以直接用 Postman 请求（见 **[GH_PAGES.md](./GH_PAGES.md)**）。
 
-> 需要 Node.js 18+（无任何第三方依赖，无需 npm install）。
+> 运行本地服务需要 Node.js 18+（零依赖）；部署 Worker 需要 `wrangler`。
 
 ---
 

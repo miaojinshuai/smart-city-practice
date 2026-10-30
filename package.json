@@ -8,6 +8,8 @@
     "build:static": "node build-static.mjs",
     "build:api": "node build-api-mirror.mjs",
     "build": "npm run build:static && npm run build:api",
-    "preview:static": "npx --yes serve docs -l 8080"
+    "preview:static": "npx --yes serve docs -l 8080",
+    "dev:worker": "wrangler dev",
+    "deploy:worker": "wrangler deploy"
   }
 }
